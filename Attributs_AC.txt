@@ -1,0 +1,10 @@
+
+Attributs AC :
+
+- add "Previous rank"
+- add "Best rank (5 prev seasons)"
+- add "Current win streak"
+- add "Avg goals/match"
+- add "Interim coach ?"
+- add "Coach changed ?"
+- add "Avg goal diff/match"
