@@ -10,8 +10,12 @@
 # Construct Data
 
 1. Add a column for teams which have just changed coach (1 if so, 0 else)
+? Is the midseasons coach firing understood in there ?
 
 # Integrate Data
 
 
+
 # Format Data
+
+1. Normalize the data

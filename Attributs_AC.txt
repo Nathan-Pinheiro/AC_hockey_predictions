@@ -1,4 +1,3 @@
-
 Attributs AC :
 
 - add "Previous rank"
