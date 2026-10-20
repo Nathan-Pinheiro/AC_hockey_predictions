@@ -4,7 +4,7 @@
 - 
 
 # a. Rankings
-- Implementing a naive model that predict the last result for using it for comparison later.
+- Implementing a naive model : predict the last result for using it for comparison later.
 
 # b. Coach
-- Maybe predict only 0, maybe try to do a more relevant naive model.
+- Implementing a naive model : Maybe predict only 0, maybe try to do a more relevant naive model.
