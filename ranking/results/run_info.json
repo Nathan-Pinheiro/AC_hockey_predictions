@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:24:17+00:00",
+  "generated_at": "2026-11-09T13:30:42+00:00",
   "python": "3.11.9",
   "splits": {
     "clean": [
@@ -54,6 +54,23 @@
   "naive": {
     "Naive: random": "Random scores, fixed seed (no skill, floor).",
     "Naive: previous available ranking": "Last available season's points percentage, re-ranked in the current conference; league average when the team has no history."
+  },
+  "blend": {
+    "name": "Blend: naive + best model",
+    "model": "Ridge + external",
+    "weight": 0.95,
+    "selection_years": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003
+    ],
+    "selection_mae": 2.6037037037037036
   },
   "models": {
     "Ridge + external": {

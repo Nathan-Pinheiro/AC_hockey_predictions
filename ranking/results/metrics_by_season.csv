@@ -1,4 +1,32 @@
 year,confID,n_teams,mae,rmse,spearman,top_overlap,within_2,split,model,family
+1995,EC,13,2.461538,2.987152,0.681319,0.666667,0.461538,backtest,Blend: naive + best model,Blend
+1995,WC,13,1.384615,1.754116,0.890110,0.833333,0.769231,backtest,Blend: naive + best model,Blend
+1996,EC,13,3.230769,4.224471,0.362637,0.666667,0.461538,backtest,Blend: naive + best model,Blend
+1996,WC,13,3.230769,3.902662,0.456044,0.500000,0.461538,backtest,Blend: naive + best model,Blend
+1997,EC,13,2.923077,3.679465,0.516484,0.666667,0.615385,backtest,Blend: naive + best model,Blend
+1997,WC,13,2.923077,3.637412,0.527473,0.833333,0.461538,backtest,Blend: naive + best model,Blend
+1998,EC,14,3.000000,4.391550,0.406593,0.714286,0.642857,backtest,Blend: naive + best model,Blend
+1998,WC,13,2.153846,2.745626,0.730769,0.833333,0.769231,backtest,Blend: naive + best model,Blend
+1999,EC,15,2.800000,3.829708,0.607143,0.714286,0.666667,backtest,Blend: naive + best model,Blend
+1999,WC,13,1.692308,2.075498,0.846154,0.833333,0.923077,backtest,Blend: naive + best model,Blend
+2000,EC,15,1.333333,1.712698,0.921429,1.000000,0.800000,backtest,Blend: naive + best model,Blend
+2000,WC,15,2.800000,3.326660,0.703571,0.857143,0.333333,backtest,Blend: naive + best model,Blend
+2001,EC,15,3.466667,4.487018,0.460714,0.571429,0.466667,backtest,Blend: naive + best model,Blend
+2001,WC,15,2.000000,2.607681,0.817857,0.714286,0.666667,backtest,Blend: naive + best model,Blend
+2002,EC,15,2.933333,3.983298,0.575000,0.857143,0.600000,backtest,Blend: naive + best model,Blend
+2002,WC,15,2.666667,3.483293,0.675000,0.714286,0.600000,backtest,Blend: naive + best model,Blend
+2003,EC,15,2.666667,3.224903,0.721429,0.857143,0.400000,backtest,Blend: naive + best model,Blend
+2003,WC,15,3.200000,3.812261,0.610714,0.714286,0.533333,backtest,Blend: naive + best model,Blend
+2005,EC,15,3.466667,4.472136,0.464286,0.428571,0.466667,backtest,Blend: naive + best model,Blend
+2005,WC,15,2.933333,3.949684,0.582143,0.571429,0.600000,backtest,Blend: naive + best model,Blend
+2006,EC,15,3.733333,5.228129,0.267857,0.571429,0.400000,backtest,Blend: naive + best model,Blend
+2006,WC,15,2.933333,3.687818,0.635714,0.714286,0.333333,backtest,Blend: naive + best model,Blend
+2007,EC,15,5.333333,6.260990,-0.050000,0.571429,0.266667,backtest,Blend: naive + best model,Blend
+2007,WC,15,1.866667,2.633122,0.814286,0.857143,0.666667,backtest,Blend: naive + best model,Blend
+2008,EC,15,3.866667,4.676181,0.414286,0.571429,0.400000,backtest,Blend: naive + best model,Blend
+2008,WC,15,4.000000,4.966555,0.339286,0.428571,0.466667,backtest,Blend: naive + best model,Blend
+2009,EC,15,2.400000,2.943920,0.767857,0.714286,0.600000,backtest,Blend: naive + best model,Blend
+2009,WC,15,3.600000,4.718757,0.403571,0.714286,0.333333,backtest,Blend: naive + best model,Blend
 1995,EC,13,3.076923,3.658499,0.521978,0.666667,0.384615,backtest,Ensemble + external,External
 1995,WC,13,1.538462,1.921538,0.868132,0.833333,0.769231,backtest,Ensemble + external,External
 1996,EC,13,3.230769,4.296689,0.340659,0.666667,0.384615,backtest,Ensemble + external,External
@@ -56,33 +84,33 @@ year,confID,n_teams,mae,rmse,spearman,top_overlap,within_2,split,model,family
 2009,EC,15,2.400000,2.828427,0.785714,0.714286,0.666667,backtest,Gradient boosting + external,External
 2009,WC,15,3.733333,4.676181,0.414286,0.571429,0.400000,backtest,Gradient boosting + external,External
 1995,EC,13,2.461538,3.012793,0.675824,0.500000,0.538462,backtest,Naive: previous available ranking,Naive
-1995,WC,13,2.000000,2.385856,0.796703,1.000000,0.692308,backtest,Naive: previous available ranking,Naive
+1995,WC,13,2.000000,2.449490,0.785714,1.000000,0.769231,backtest,Naive: previous available ranking,Naive
 1996,EC,13,3.230769,4.402796,0.307692,0.666667,0.538462,backtest,Naive: previous available ranking,Naive
-1996,WC,13,3.230769,4.038278,0.417582,0.500000,0.461538,backtest,Naive: previous available ranking,Naive
-1997,EC,13,3.076923,4.242641,0.357143,0.666667,0.538462,backtest,Naive: previous available ranking,Naive
-1997,WC,13,2.923077,3.741657,0.500000,0.833333,0.538462,backtest,Naive: previous available ranking,Naive
+1996,WC,13,3.230769,4.150996,0.384615,0.500000,0.461538,backtest,Naive: previous available ranking,Naive
+1997,EC,13,3.076923,4.150996,0.384615,0.666667,0.538462,backtest,Naive: previous available ranking,Naive
+1997,WC,13,2.769231,3.700312,0.510989,0.833333,0.538462,backtest,Naive: previous available ranking,Naive
 1998,EC,14,3.000000,4.105745,0.481319,0.714286,0.500000,backtest,Naive: previous available ranking,Naive
-1998,WC,13,2.307692,3.210560,0.631868,0.666667,0.692308,backtest,Naive: previous available ranking,Naive
+1998,WC,13,2.153846,3.012793,0.675824,0.833333,0.769231,backtest,Naive: previous available ranking,Naive
 1999,EC,15,2.933333,4.066120,0.557143,0.714286,0.600000,backtest,Naive: previous available ranking,Naive
 1999,WC,13,2.307692,2.717465,0.736264,0.833333,0.615385,backtest,Naive: previous available ranking,Naive
-2000,EC,15,2.400000,2.898275,0.775000,0.857143,0.666667,backtest,Naive: previous available ranking,Naive
+2000,EC,15,2.400000,2.921187,0.771429,0.857143,0.600000,backtest,Naive: previous available ranking,Naive
 2000,WC,15,2.666667,3.055050,0.750000,0.857143,0.333333,backtest,Naive: previous available ranking,Naive
-2001,EC,15,3.866667,4.788876,0.385714,0.571429,0.400000,backtest,Naive: previous available ranking,Naive
-2001,WC,15,2.400000,3.306559,0.707143,0.714286,0.666667,backtest,Naive: previous available ranking,Naive
+2001,EC,15,3.866667,4.871687,0.364286,0.571429,0.400000,backtest,Naive: previous available ranking,Naive
+2001,WC,15,2.266667,3.119829,0.739286,0.714286,0.733333,backtest,Naive: previous available ranking,Naive
 2002,EC,15,3.466667,4.163332,0.535714,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
 2002,WC,15,3.600000,4.788876,0.385714,0.428571,0.466667,backtest,Naive: previous available ranking,Naive
 2003,EC,15,2.933333,3.540245,0.664286,0.857143,0.400000,backtest,Naive: previous available ranking,Naive
-2003,WC,15,3.466667,4.589844,0.435714,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
+2003,WC,15,3.466667,4.560702,0.442857,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
 2005,EC,15,3.866667,5.266245,0.257143,0.571429,0.466667,backtest,Naive: previous available ranking,Naive
-2005,WC,15,2.666667,3.405877,0.689286,0.857143,0.533333,backtest,Naive: previous available ranking,Naive
+2005,WC,15,2.800000,3.633180,0.646429,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
 2006,EC,15,3.333333,4.885352,0.360714,0.571429,0.600000,backtest,Naive: previous available ranking,Naive
 2006,WC,15,2.666667,3.011091,0.757143,0.714286,0.400000,backtest,Naive: previous available ranking,Naive
 2007,EC,15,5.066667,5.988879,0.039286,0.571429,0.333333,backtest,Naive: previous available ranking,Naive
-2007,WC,15,2.533333,2.943920,0.767857,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
-2008,EC,15,2.533333,3.444803,0.682143,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
-2008,WC,15,4.133333,5.006662,0.328571,0.428571,0.466667,backtest,Naive: previous available ranking,Naive
-2009,EC,15,3.200000,3.687818,0.635714,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
-2009,WC,15,3.866667,4.953113,0.342857,0.571429,0.266667,backtest,Naive: previous available ranking,Naive
+2007,WC,15,2.400000,2.966479,0.764286,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
+2008,EC,15,2.666667,3.651484,0.642857,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
+2008,WC,15,4.266667,5.112077,0.300000,0.428571,0.466667,backtest,Naive: previous available ranking,Naive
+2009,EC,15,3.066667,3.614784,0.650000,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
+2009,WC,15,3.866667,4.912569,0.353571,0.571429,0.266667,backtest,Naive: previous available ranking,Naive
 1995,EC,13,4.461538,5.602197,-0.120879,0.500000,0.384615,backtest,Naive: random,Naive
 1995,WC,13,3.538462,4.657500,0.225275,0.666667,0.538462,backtest,Naive: random,Naive
 1996,EC,13,3.384615,3.902662,0.456044,0.666667,0.230769,backtest,Naive: random,Naive
@@ -195,6 +223,16 @@ year,confID,n_teams,mae,rmse,spearman,top_overlap,within_2,split,model,family
 2008,WC,15,4.000000,4.966555,0.339286,0.428571,0.466667,backtest,Ridge + external,External
 2009,EC,15,2.266667,2.804758,0.789286,0.714286,0.666667,backtest,Ridge + external,External
 2009,WC,15,3.600000,4.718757,0.403571,0.714286,0.333333,backtest,Ridge + external,External
+2005,EC,15,3.466667,4.472136,0.464286,0.428571,0.466667,clean,Blend: naive + best model,Blend
+2005,WC,15,2.933333,3.949684,0.582143,0.571429,0.600000,clean,Blend: naive + best model,Blend
+2006,EC,15,3.733333,5.228129,0.267857,0.571429,0.400000,clean,Blend: naive + best model,Blend
+2006,WC,15,2.933333,3.687818,0.635714,0.714286,0.333333,clean,Blend: naive + best model,Blend
+2007,EC,15,5.333333,6.260990,-0.050000,0.571429,0.266667,clean,Blend: naive + best model,Blend
+2007,WC,15,1.866667,2.633122,0.814286,0.857143,0.666667,clean,Blend: naive + best model,Blend
+2008,EC,15,3.866667,4.676181,0.414286,0.571429,0.400000,clean,Blend: naive + best model,Blend
+2008,WC,15,4.000000,4.966555,0.339286,0.428571,0.466667,clean,Blend: naive + best model,Blend
+2009,EC,15,2.400000,2.943920,0.767857,0.714286,0.600000,clean,Blend: naive + best model,Blend
+2009,WC,15,3.600000,4.718757,0.403571,0.714286,0.333333,clean,Blend: naive + best model,Blend
 2005,EC,15,3.466667,4.516636,0.453571,0.571429,0.400000,clean,Ensemble + external,External
 2005,WC,15,2.800000,3.705851,0.632143,0.571429,0.600000,clean,Ensemble + external,External
 2006,EC,15,3.333333,4.926121,0.350000,0.714286,0.466667,clean,Ensemble + external,External
@@ -216,15 +254,15 @@ year,confID,n_teams,mae,rmse,spearman,top_overlap,within_2,split,model,family
 2009,EC,15,2.400000,2.828427,0.785714,0.714286,0.666667,clean,Gradient boosting + external,External
 2009,WC,15,3.733333,4.676181,0.414286,0.571429,0.400000,clean,Gradient boosting + external,External
 2005,EC,15,3.866667,5.266245,0.257143,0.571429,0.466667,clean,Naive: previous available ranking,Naive
-2005,WC,15,2.666667,3.405877,0.689286,0.857143,0.533333,clean,Naive: previous available ranking,Naive
+2005,WC,15,2.800000,3.633180,0.646429,0.714286,0.533333,clean,Naive: previous available ranking,Naive
 2006,EC,15,3.333333,4.885352,0.360714,0.571429,0.600000,clean,Naive: previous available ranking,Naive
 2006,WC,15,2.666667,3.011091,0.757143,0.714286,0.400000,clean,Naive: previous available ranking,Naive
 2007,EC,15,5.066667,5.988879,0.039286,0.571429,0.333333,clean,Naive: previous available ranking,Naive
-2007,WC,15,2.533333,2.943920,0.767857,0.714286,0.466667,clean,Naive: previous available ranking,Naive
-2008,EC,15,2.533333,3.444803,0.682143,0.714286,0.533333,clean,Naive: previous available ranking,Naive
-2008,WC,15,4.133333,5.006662,0.328571,0.428571,0.466667,clean,Naive: previous available ranking,Naive
-2009,EC,15,3.200000,3.687818,0.635714,0.714286,0.466667,clean,Naive: previous available ranking,Naive
-2009,WC,15,3.866667,4.953113,0.342857,0.571429,0.266667,clean,Naive: previous available ranking,Naive
+2007,WC,15,2.400000,2.966479,0.764286,0.714286,0.466667,clean,Naive: previous available ranking,Naive
+2008,EC,15,2.666667,3.651484,0.642857,0.714286,0.533333,clean,Naive: previous available ranking,Naive
+2008,WC,15,4.266667,5.112077,0.300000,0.428571,0.466667,clean,Naive: previous available ranking,Naive
+2009,EC,15,3.066667,3.614784,0.650000,0.714286,0.533333,clean,Naive: previous available ranking,Naive
+2009,WC,15,3.866667,4.912569,0.353571,0.571429,0.266667,clean,Naive: previous available ranking,Naive
 2005,EC,15,5.866667,7.014271,-0.317857,0.428571,0.333333,clean,Naive: random,Naive
 2005,WC,15,5.866667,7.146095,-0.367857,0.285714,0.266667,clean,Naive: random,Naive
 2006,EC,15,5.200000,5.988879,0.039286,0.428571,0.266667,clean,Naive: random,Naive

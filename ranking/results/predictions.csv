@@ -170,8 +170,8 @@ clean,Naive: previous available ranking,Naive,2005,VAN,WC,0.904619,3,9,15,0.0383
 clean,Naive: previous available ranking,Naive,2005,COL,WC,0.840764,4,7,15,0.219955,-3,3
 clean,Naive: previous available ranking,Naive,2005,DAL,WC,0.649197,5,2,15,1.249104,3,3
 clean,Naive: previous available ranking,Naive,2005,CAL,WC,0.457631,6,4,15,0.704261,2,2
-clean,Naive: previous available ranking,Naive,2005,NAS,WC,0.266064,7,3,15,0.885875,4,4
-clean,Naive: previous available ranking,Naive,2005,STL,WC,0.266064,8,15,15,-2.080495,-7,7
+clean,Naive: previous available ranking,Naive,2005,STL,WC,0.266064,7,15,15,-2.080495,-8,8
+clean,Naive: previous available ranking,Naive,2005,NAS,WC,0.266064,8,3,15,0.885875,5,5
 clean,Naive: previous available ranking,Naive,2005,EDM,WC,0.138353,9,8,15,0.219955,1,1
 clean,Naive: previous available ranking,Naive,2005,MIN,WC,-0.244779,10,11,15,-0.445965,-1,1
 clean,Naive: previous available ranking,Naive,2005,LAK,WC,-0.372490,11,10,15,-0.143274,1,1
@@ -225,18 +225,18 @@ clean,Naive: previous available ranking,Naive,2007,BOS,EC,-0.951930,13,8,15,0.28
 clean,Naive: previous available ranking,Naive,2007,WAS,EC,-1.323616,14,7,15,0.281191,7,7
 clean,Naive: previous available ranking,Naive,2007,PHI,EC,-2.190884,15,5,15,0.377051,10,10
 clean,Naive: previous available ranking,Naive,2007,DET,WC,1.340135,1,1,15,2.294261,0,0
-clean,Naive: previous available ranking,Naive,2007,AND,WC,1.154292,2,3,15,1.048075,-1,1
-clean,Naive: previous available ranking,Naive,2007,NAS,WC,1.154292,3,8,15,-0.006391,-5,5
-clean,Naive: previous available ranking,Naive,2007,DAL,WC,0.968449,4,5,15,0.568772,-1,1
-clean,Naive: previous available ranking,Naive,2007,SJS,WC,0.968449,5,2,15,1.623238,3,3
+clean,Naive: previous available ranking,Naive,2007,NAS,WC,1.154292,2,8,15,-0.006391,-6,6
+clean,Naive: previous available ranking,Naive,2007,AND,WC,1.154292,3,3,15,1.048075,0,0
+clean,Naive: previous available ranking,Naive,2007,SJS,WC,0.968449,4,2,15,1.623238,2,2
+clean,Naive: previous available ranking,Naive,2007,DAL,WC,0.968449,5,5,15,0.568772,0,0
 clean,Naive: previous available ranking,Naive,2007,VAN,WC,0.844554,6,11,15,-0.293972,-5,5
 clean,Naive: previous available ranking,Naive,2007,MIN,WC,0.782606,7,4,15,0.664633,3,3
 clean,Naive: previous available ranking,Naive,2007,CAL,WC,0.287024,8,7,15,0.281191,1,1
 clean,Naive: previous available ranking,Naive,2007,COL,WC,0.225077,9,6,15,0.377051,3,3
 clean,Naive: previous available ranking,Naive,2007,STL,WC,-0.642191,10,14,15,-1.156717,-4,4
 clean,Naive: previous available ranking,Naive,2007,CBS,WC,-1.137773,11,13,15,-1.060856,-2,2
-clean,Naive: previous available ranking,Naive,2007,CHI,WC,-1.261668,12,10,15,-0.293972,2,2
-clean,Naive: previous available ranking,Naive,2007,EDM,WC,-1.261668,13,9,15,-0.293972,4,4
+clean,Naive: previous available ranking,Naive,2007,EDM,WC,-1.261668,12,9,15,-0.293972,3,3
+clean,Naive: previous available ranking,Naive,2007,CHI,WC,-1.261668,13,10,15,-0.293972,3,3
 clean,Naive: previous available ranking,Naive,2007,LAK,WC,-1.447511,14,15,15,-1.923601,-1,1
 clean,Naive: previous available ranking,Naive,2007,PHO,WC,-1.509459,15,12,15,-0.773275,3,3
 clean,Naive: previous available ranking,Naive,2008,MTL,EC,1.239796,1,9,15,0.115770,-8,8
@@ -244,9 +244,9 @@ clean,Naive: previous available ranking,Naive,2008,PIT,EC,1.048075,2,4,15,0.5499
 clean,Naive: previous available ranking,Naive,2008,NJD,EC,0.760493,3,3,15,1.056400,0,0
 clean,Naive: previous available ranking,Naive,2008,NYR,EC,0.568772,4,7,15,0.260482,-3,3
 clean,Naive: previous available ranking,Naive,2008,PHI,EC,0.377051,5,5,15,0.549907,0,0
-clean,Naive: previous available ranking,Naive,2008,BOS,EC,0.281191,6,1,15,1.779961,5,5
-clean,Naive: previous available ranking,Naive,2008,OTT,EC,0.281191,7,11,15,-0.607792,-4,4
-clean,Naive: previous available ranking,Naive,2008,WAS,EC,0.281191,8,2,15,1.201112,6,6
+clean,Naive: previous available ranking,Naive,2008,OTT,EC,0.281191,6,11,15,-0.607792,-5,5
+clean,Naive: previous available ranking,Naive,2008,WAS,EC,0.281191,7,2,15,1.201112,5,5
+clean,Naive: previous available ranking,Naive,2008,BOS,EC,0.281191,8,1,15,1.779961,7,7
 clean,Naive: previous available ranking,Naive,2008,CAR,EC,0.089470,9,6,15,0.405194,3,3
 clean,Naive: previous available ranking,Naive,2008,BUF,EC,-0.102251,10,10,15,-0.028942,0,0
 clean,Naive: previous available ranking,Naive,2008,FLO,EC,-0.581554,11,8,15,0.115770,3,3
@@ -262,8 +262,8 @@ clean,Naive: previous available ranking,Naive,2008,DAL,WC,0.568772,5,12,15,-0.60
 clean,Naive: previous available ranking,Naive,2008,COL,WC,0.377051,6,15,15,-1.620778,-9,9
 clean,Naive: previous available ranking,Naive,2008,CAL,WC,0.281191,7,5,15,0.477551,2,2
 clean,Naive: previous available ranking,Naive,2008,NAS,WC,-0.006391,8,10,15,-0.246011,-2,2
-clean,Naive: previous available ranking,Naive,2008,CHI,WC,-0.293972,9,3,15,0.911688,6,6
-clean,Naive: previous available ranking,Naive,2008,EDM,WC,-0.293972,10,11,15,-0.463079,-1,1
+clean,Naive: previous available ranking,Naive,2008,EDM,WC,-0.293972,9,11,15,-0.463079,-2,2
+clean,Naive: previous available ranking,Naive,2008,CHI,WC,-0.293972,10,3,15,0.911688,7,7
 clean,Naive: previous available ranking,Naive,2008,VAN,WC,-0.293972,11,4,15,0.622263,7,7
 clean,Naive: previous available ranking,Naive,2008,PHO,WC,-0.773275,12,13,15,-0.897216,-1,1
 clean,Naive: previous available ranking,Naive,2008,CBS,WC,-1.060856,13,6,15,0.043414,7,7
@@ -272,8 +272,8 @@ clean,Naive: previous available ranking,Naive,2008,LAK,WC,-1.923601,15,14,15,-0.
 clean,Naive: previous available ranking,Naive,2009,BOS,EC,1.779961,1,6,15,-0.079797,-5,5
 clean,Naive: previous available ranking,Naive,2009,WAS,EC,1.201112,2,1,15,2.236902,1,1
 clean,Naive: previous available ranking,Naive,2009,NJD,EC,1.056400,3,2,15,0.846882,1,1
-clean,Naive: previous available ranking,Naive,2009,PHI,EC,0.549907,4,7,15,-0.311467,-3,3
-clean,Naive: previous available ranking,Naive,2009,PIT,EC,0.549907,5,3,15,0.692436,2,2
+clean,Naive: previous available ranking,Naive,2009,PIT,EC,0.549907,4,3,15,0.692436,1,1
+clean,Naive: previous available ranking,Naive,2009,PHI,EC,0.549907,5,7,15,-0.311467,-2,2
 clean,Naive: previous available ranking,Naive,2009,CAR,EC,0.405194,6,11,15,-0.929254,-5,5
 clean,Naive: previous available ranking,Naive,2009,NYR,EC,0.260482,7,9,15,-0.388691,-2,2
 clean,Naive: previous available ranking,Naive,2009,FLO,EC,0.115770,8,14,15,-1.160924,-6,6
@@ -296,8 +296,8 @@ clean,Naive: previous available ranking,Naive,2009,MIN,WC,-0.173655,9,13,15,-0.6
 clean,Naive: previous available ranking,Naive,2009,NAS,WC,-0.246011,10,7,15,0.615212,3,3
 clean,Naive: previous available ranking,Naive,2009,EDM,WC,-0.463079,11,15,15,-2.319273,-4,4
 clean,Naive: previous available ranking,Naive,2009,DAL,WC,-0.607792,12,12,15,-0.311467,0,0
-clean,Naive: previous available ranking,Naive,2009,LAK,WC,-0.897216,13,6,15,0.692436,7,7
-clean,Naive: previous available ranking,Naive,2009,PHO,WC,-0.897216,14,3,15,1.155775,11,11
+clean,Naive: previous available ranking,Naive,2009,PHO,WC,-0.897216,13,3,15,1.155775,10,10
+clean,Naive: previous available ranking,Naive,2009,LAK,WC,-0.897216,14,6,15,0.692436,8,8
 clean,Naive: previous available ranking,Naive,2009,COL,WC,-1.620778,15,8,15,0.229096,7,7
 clean,Ridge + external,External,2005,OTT,EC,0.887261,1,1,15,1.309643,0,0
 clean,Ridge + external,External,2005,TBL,EC,0.736789,2,8,15,0.038341,-6,6
@@ -1049,6 +1049,156 @@ clean,Pairwise boosting,Pairwise,2009,EDM,WC,0.381479,12,15,15,-2.319273,-3,3
 clean,Pairwise boosting,Pairwise,2009,PHO,WC,0.334385,13,3,15,1.155775,10,10
 clean,Pairwise boosting,Pairwise,2009,LAK,WC,0.267037,14,6,15,0.692436,8,8
 clean,Pairwise boosting,Pairwise,2009,COL,WC,0.249836,15,8,15,0.229096,7,7
+clean,Blend: naive + best model,Blend,2005,OTT,EC,1.317420,1,1,15,1.309643,0,0
+clean,Blend: naive + best model,Blend,2005,TBL,EC,1.107334,2,8,15,0.038341,-6,6
+clean,Blend: naive + best model,Blend,2005,TOR,EC,1.067815,3,10,15,-0.082736,-7,7
+clean,Blend: naive + best model,Blend,2005,PHI,EC,1.010051,4,5,15,0.583184,-1,1
+clean,Blend: naive + best model,Blend,2005,NJD,EC,0.795230,5,4,15,0.583184,1,1
+clean,Blend: naive + best model,Blend,2005,BOS,EC,0.584091,6,13,15,-1.051346,-7,7
+clean,Blend: naive + best model,Blend,2005,NYI,EC,0.369284,7,12,15,-0.809194,-5,5
+clean,Blend: naive + best model,Blend,2005,MTL,EC,0.365636,8,7,15,0.098879,1,1
+clean,Blend: naive + best model,Blend,2005,BUF,EC,-0.236705,9,3,15,1.128028,6,6
+clean,Blend: naive + best model,Blend,2005,CAR,EC,-0.552612,10,2,15,1.249104,8,8
+clean,Blend: naive + best model,Blend,2005,NYR,EC,-0.695671,11,6,15,0.522646,5,5
+clean,Blend: naive + best model,Blend,2005,ATL,EC,-0.723946,12,9,15,-0.082736,3,3
+clean,Blend: naive + best model,Blend,2005,FLO,EC,-1.507520,13,11,15,-0.385426,2,2
+clean,Blend: naive + best model,Blend,2005,WAS,EC,-1.611097,14,14,15,-1.293499,0,0
+clean,Blend: naive + best model,Blend,2005,PIT,EC,-2.078186,15,15,15,-2.019957,0,0
+clean,Blend: naive + best model,Blend,2005,DET,WC,1.631679,1,1,15,1.975562,0,0
+clean,Blend: naive + best model,Blend,2005,VAN,WC,1.046974,2,9,15,0.038341,-7,7
+clean,Blend: naive + best model,Blend,2005,COL,WC,1.036178,3,7,15,0.219955,-4,4
+clean,Blend: naive + best model,Blend,2005,DAL,WC,0.851065,4,2,15,1.249104,2,2
+clean,Blend: naive + best model,Blend,2005,SJS,WC,0.636452,5,5,15,0.462108,0,0
+clean,Blend: naive + best model,Blend,2005,EDM,WC,0.366369,6,8,15,0.219955,-2,2
+clean,Blend: naive + best model,Blend,2005,STL,WC,0.272291,7,15,15,-2.080495,-8,8
+clean,Blend: naive + best model,Blend,2005,CAL,WC,0.034273,8,4,15,0.704261,4,4
+clean,Blend: naive + best model,Blend,2005,LAK,WC,-0.041637,9,10,15,-0.143274,-1,1
+clean,Blend: naive + best model,Blend,2005,NAS,WC,-0.175176,10,3,15,0.885875,7,7
+clean,Blend: naive + best model,Blend,2005,ANA,WC,-0.417268,11,6,15,0.401570,5,5
+clean,Blend: naive + best model,Blend,2005,MIN,WC,-0.634100,12,11,15,-0.445965,1,1
+clean,Blend: naive + best model,Blend,2005,PHO,WC,-0.933447,13,12,15,-0.627579,1,1
+clean,Blend: naive + best model,Blend,2005,CHI,WC,-1.202553,14,14,15,-1.596190,0,0
+clean,Blend: naive + best model,Blend,2005,CBS,WC,-1.682223,15,13,15,-1.051346,2,2
+clean,Blend: naive + best model,Blend,2006,OTT,EC,1.840579,1,3,15,0.844554,-2,2
+clean,Blend: naive + best model,Blend,2006,PHI,EC,0.670218,2,15,15,-2.190884,-13,13
+clean,Blend: naive + best model,Blend,2006,TBL,EC,0.630083,3,7,15,0.101181,-4,4
+clean,Blend: naive + best model,Blend,2006,BUF,EC,0.501130,4,1,15,1.340135,3,3
+clean,Blend: naive + best model,Blend,2006,CAR,EC,0.233295,5,11,15,-0.208557,-6,6
+clean,Blend: naive + best model,Blend,2006,NJD,EC,0.222781,6,2,15,0.968449,4,4
+clean,Blend: naive + best model,Blend,2006,TOR,EC,0.146949,7,9,15,-0.022714,-2,2
+clean,Blend: naive + best model,Blend,2006,ATL,EC,0.129562,8,5,15,0.348972,3,3
+clean,Blend: naive + best model,Blend,2006,MTL,EC,0.108635,9,10,15,-0.084662,-1,1
+clean,Blend: naive + best model,Blend,2006,NYR,EC,0.071165,10,6,15,0.163129,4,4
+clean,Blend: naive + best model,Blend,2006,NYI,EC,-0.616316,11,8,15,0.039234,3,3
+clean,Blend: naive + best model,Blend,2006,FLO,EC,-0.694280,12,12,15,-0.332453,0,0
+clean,Blend: naive + best model,Blend,2006,BOS,EC,-0.983571,13,13,15,-0.951930,0,0
+clean,Blend: naive + best model,Blend,2006,WAS,EC,-1.315059,14,14,15,-1.323616,0,0
+clean,Blend: naive + best model,Blend,2006,PIT,EC,-1.870448,15,4,15,0.844554,11,11
+clean,Blend: naive + best model,Blend,2006,DET,WC,2.467538,1,1,15,1.340135,0,0
+clean,Blend: naive + best model,Blend,2006,DAL,WC,1.297521,2,5,15,0.968449,-3,3
+clean,Blend: naive + best model,Blend,2006,SJS,WC,0.923646,3,4,15,0.968449,-1,1
+clean,Blend: naive + best model,Blend,2006,COL,WC,0.758673,4,9,15,0.225077,-5,5
+clean,Blend: naive + best model,Blend,2006,EDM,WC,0.729017,5,12,15,-1.261668,-7,7
+clean,Blend: naive + best model,Blend,2006,AND,WC,0.340328,6,3,15,1.154292,3,3
+clean,Blend: naive + best model,Blend,2006,VAN,WC,0.180018,7,6,15,0.844554,1,1
+clean,Blend: naive + best model,Blend,2006,CAL,WC,0.039069,8,8,15,0.287024,0,0
+clean,Blend: naive + best model,Blend,2006,NAS,WC,-0.108502,9,2,15,1.154292,7,7
+clean,Blend: naive + best model,Blend,2006,MIN,WC,-0.296289,10,7,15,0.782606,3,3
+clean,Blend: naive + best model,Blend,2006,LAK,WC,-0.384527,11,14,15,-1.447511,-3,3
+clean,Blend: naive + best model,Blend,2006,PHO,WC,-0.671637,12,15,15,-1.509459,-3,3
+clean,Blend: naive + best model,Blend,2006,CHI,WC,-1.189881,13,13,15,-1.261668,0,0
+clean,Blend: naive + best model,Blend,2006,CBS,WC,-1.576750,14,11,15,-1.137773,3,3
+clean,Blend: naive + best model,Blend,2006,STL,WC,-1.582949,15,10,15,-0.642191,5,5
+clean,Blend: naive + best model,Blend,2007,OTT,EC,1.227454,1,6,15,0.281191,-5,5
+clean,Blend: naive + best model,Blend,2007,BUF,EC,1.077250,2,10,15,-0.102251,-8,8
+clean,Blend: naive + best model,Blend,2007,TOR,EC,0.547551,3,12,15,-0.773275,-9,9
+clean,Blend: naive + best model,Blend,2007,NJD,EC,0.516242,4,3,15,0.760493,1,1
+clean,Blend: naive + best model,Blend,2007,NYR,EC,0.348581,5,4,15,0.568772,1,1
+clean,Blend: naive + best model,Blend,2007,TBL,EC,0.209445,6,15,15,-1.923601,-9,9
+clean,Blend: naive + best model,Blend,2007,PIT,EC,0.199865,7,2,15,1.048075,5,5
+clean,Blend: naive + best model,Blend,2007,FLO,EC,0.196757,8,11,15,-0.581554,-3,3
+clean,Blend: naive + best model,Blend,2007,ATL,EC,-0.002217,9,14,15,-1.444298,-5,5
+clean,Blend: naive + best model,Blend,2007,CAR,EC,-0.038116,10,9,15,0.089470,1,1
+clean,Blend: naive + best model,Blend,2007,MTL,EC,-0.336976,11,1,15,1.239796,10,10
+clean,Blend: naive + best model,Blend,2007,NYI,EC,-0.340337,12,13,15,-1.156717,-1,1
+clean,Blend: naive + best model,Blend,2007,BOS,EC,-1.309644,13,8,15,0.281191,5,5
+clean,Blend: naive + best model,Blend,2007,WAS,EC,-1.354202,14,7,15,0.281191,7,7
+clean,Blend: naive + best model,Blend,2007,PHI,EC,-1.760642,15,5,15,0.377051,10,10
+clean,Blend: naive + best model,Blend,2007,DET,WC,1.961437,1,1,15,2.294261,0,0
+clean,Blend: naive + best model,Blend,2007,SJS,WC,1.135672,2,2,15,1.623238,0,0
+clean,Blend: naive + best model,Blend,2007,AND,WC,1.065200,3,3,15,1.048075,0,0
+clean,Blend: naive + best model,Blend,2007,MIN,WC,0.886574,4,4,15,0.664633,0,0
+clean,Blend: naive + best model,Blend,2007,DAL,WC,0.842621,5,5,15,0.568772,0,0
+clean,Blend: naive + best model,Blend,2007,NAS,WC,0.810825,6,8,15,-0.006391,-2,2
+clean,Blend: naive + best model,Blend,2007,COL,WC,0.737334,7,6,15,0.377051,1,1
+clean,Blend: naive + best model,Blend,2007,VAN,WC,0.481111,8,11,15,-0.293972,-3,3
+clean,Blend: naive + best model,Blend,2007,CAL,WC,0.188077,9,7,15,0.281191,2,2
+clean,Blend: naive + best model,Blend,2007,LAK,WC,-0.945935,10,15,15,-1.923601,-5,5
+clean,Blend: naive + best model,Blend,2007,STL,WC,-1.024937,11,14,15,-1.156717,-3,3
+clean,Blend: naive + best model,Blend,2007,CBS,WC,-1.028284,12,13,15,-1.060856,-1,1
+clean,Blend: naive + best model,Blend,2007,PHO,WC,-1.320440,13,12,15,-0.773275,1,1
+clean,Blend: naive + best model,Blend,2007,EDM,WC,-1.321770,14,9,15,-0.293972,5,5
+clean,Blend: naive + best model,Blend,2007,CHI,WC,-1.648495,15,10,15,-0.293972,5,5
+clean,Blend: naive + best model,Blend,2008,NYR,EC,1.105251,1,7,15,0.260482,-6,6
+clean,Blend: naive + best model,Blend,2008,BUF,EC,0.763288,2,10,15,-0.028942,-8,8
+clean,Blend: naive + best model,Blend,2008,OTT,EC,0.657633,3,11,15,-0.607792,-8,8
+clean,Blend: naive + best model,Blend,2008,NJD,EC,0.651375,4,3,15,1.056400,1,1
+clean,Blend: naive + best model,Blend,2008,WAS,EC,0.467205,5,2,15,1.201112,3,3
+clean,Blend: naive + best model,Blend,2008,MTL,EC,0.440679,6,9,15,0.115770,-3,3
+clean,Blend: naive + best model,Blend,2008,CAR,EC,0.433238,7,6,15,0.405194,1,1
+clean,Blend: naive + best model,Blend,2008,PIT,EC,0.310849,8,4,15,0.549907,4,4
+clean,Blend: naive + best model,Blend,2008,BOS,EC,-0.393328,9,1,15,1.779961,8,8
+clean,Blend: naive + best model,Blend,2008,TOR,EC,-0.402636,10,12,15,-0.752504,-2,2
+clean,Blend: naive + best model,Blend,2008,PHI,EC,-0.445213,11,5,15,0.549907,6,6
+clean,Blend: naive + best model,Blend,2008,FLO,EC,-0.843172,12,8,15,0.115770,4,4
+clean,Blend: naive + best model,Blend,2008,NYI,EC,-0.848301,13,15,15,-2.199627,-2,2
+clean,Blend: naive + best model,Blend,2008,TBL,EC,-1.276351,14,14,15,-1.837846,0,0
+clean,Blend: naive + best model,Blend,2008,ATL,EC,-1.731533,15,13,15,-1.114285,2,2
+clean,Blend: naive + best model,Blend,2008,DET,WC,2.662479,1,2,15,1.490537,-1,1
+clean,Blend: naive + best model,Blend,2008,SJS,WC,1.658737,2,1,15,1.852318,1,1
+clean,Blend: naive + best model,Blend,2008,NAS,WC,0.639788,3,10,15,-0.246011,-7,7
+clean,Blend: naive + best model,Blend,2008,DAL,WC,0.614301,4,12,15,-0.607792,-8,8
+clean,Blend: naive + best model,Blend,2008,AND,WC,0.592032,5,8,15,-0.028942,-3,3
+clean,Blend: naive + best model,Blend,2008,COL,WC,0.491539,6,15,15,-1.620778,-9,9
+clean,Blend: naive + best model,Blend,2008,CAL,WC,0.467145,7,5,15,0.477551,2,2
+clean,Blend: naive + best model,Blend,2008,MIN,WC,0.306903,8,9,15,-0.173655,-1,1
+clean,Blend: naive + best model,Blend,2008,VAN,WC,-0.195154,9,4,15,0.622263,5,5
+clean,Blend: naive + best model,Blend,2008,CBS,WC,-0.625053,10,6,15,0.043414,4,4
+clean,Blend: naive + best model,Blend,2008,CHI,WC,-0.712661,11,3,15,0.911688,8,8
+clean,Blend: naive + best model,Blend,2008,PHO,WC,-0.765932,12,13,15,-0.897216,-1,1
+clean,Blend: naive + best model,Blend,2008,EDM,WC,-1.037792,13,11,15,-0.463079,2,2
+clean,Blend: naive + best model,Blend,2008,STL,WC,-1.221566,14,7,15,0.043414,7,7
+clean,Blend: naive + best model,Blend,2008,LAK,WC,-1.763750,15,14,15,-0.897216,1,1
+clean,Blend: naive + best model,Blend,2009,BOS,EC,1.201204,1,6,15,-0.079797,-5,5
+clean,Blend: naive + best model,Blend,2009,WAS,EC,1.150834,2,1,15,2.236902,1,1
+clean,Blend: naive + best model,Blend,2009,NJD,EC,1.043744,3,2,15,0.846882,1,1
+clean,Blend: naive + best model,Blend,2009,PIT,EC,0.823906,4,3,15,0.692436,1,1
+clean,Blend: naive + best model,Blend,2009,CAR,EC,0.274533,5,11,15,-0.929254,-6,6
+clean,Blend: naive + best model,Blend,2009,BUF,EC,0.269503,6,4,15,0.615212,2,2
+clean,Blend: naive + best model,Blend,2009,MTL,EC,0.214709,7,8,15,-0.311467,-1,1
+clean,Blend: naive + best model,Blend,2009,PHI,EC,0.129438,8,7,15,-0.311467,1,1
+clean,Blend: naive + best model,Blend,2009,NYR,EC,0.061363,9,9,15,-0.388691,0,0
+clean,Blend: naive + best model,Blend,2009,OTT,EC,-0.119065,10,5,15,0.151872,5,5
+clean,Blend: naive + best model,Blend,2009,FLO,EC,-0.690591,11,14,15,-1.160924,-3,3
+clean,Blend: naive + best model,Blend,2009,TOR,EC,-0.731800,12,15,15,-1.392593,-3,3
+clean,Blend: naive + best model,Blend,2009,ATL,EC,-0.866348,13,10,15,-0.697584,3,3
+clean,Blend: naive + best model,Blend,2009,TBL,EC,-2.091974,14,12,15,-0.929254,2,2
+clean,Blend: naive + best model,Blend,2009,NYI,EC,-2.155252,15,13,15,-1.006477,2,2
+clean,Blend: naive + best model,Blend,2009,SJS,WC,1.862387,1,1,15,1.619115,0,0
+clean,Blend: naive + best model,Blend,2009,DET,WC,1.732078,2,5,15,0.769659,-3,3
+clean,Blend: naive + best model,Blend,2009,CHI,WC,1.069092,3,2,15,1.541892,1,1
+clean,Blend: naive + best model,Blend,2009,CAL,WC,0.793138,4,9,15,-0.157021,-5,5
+clean,Blend: naive + best model,Blend,2009,VAN,WC,0.554616,5,4,15,0.846882,1,1
+clean,Blend: naive + best model,Blend,2009,AND,WC,0.154124,6,11,15,-0.234244,-5,5
+clean,Blend: naive + best model,Blend,2009,NAS,WC,0.079164,7,7,15,0.615212,0,0
+clean,Blend: naive + best model,Blend,2009,DAL,WC,-0.134628,8,12,15,-0.311467,-4,4
+clean,Blend: naive + best model,Blend,2009,STL,WC,-0.136520,9,10,15,-0.157021,-1,1
+clean,Blend: naive + best model,Blend,2009,MIN,WC,-0.165282,10,13,15,-0.620361,-3,3
+clean,Blend: naive + best model,Blend,2009,CBS,WC,-0.171906,11,14,15,-1.006477,-3,3
+clean,Blend: naive + best model,Blend,2009,EDM,WC,-0.724760,12,15,15,-2.319273,-3,3
+clean,Blend: naive + best model,Blend,2009,LAK,WC,-0.799291,13,6,15,0.692436,7,7
+clean,Blend: naive + best model,Blend,2009,COL,WC,-1.227309,14,8,15,0.229096,6,6
+clean,Blend: naive + best model,Blend,2009,PHO,WC,-1.399107,15,3,15,1.155775,12,12
 backtest,Naive: random,Naive,1995,FLO,EC,0.940565,1,4,13,0.527809,-3,3
 backtest,Naive: random,Naive,1995,BUF,EC,0.879398,2,11,13,-0.475028,-9,9
 backtest,Naive: random,Naive,1995,NYI,EC,0.777792,3,12,13,-1.477866,-9,9
@@ -1472,8 +1622,8 @@ backtest,Naive: previous available ranking,Naive,1995,CAL,WC,0.655840,4,6,13,-0.
 backtest,Naive: previous available ranking,Naive,1995,CHI,WC,0.468457,5,3,13,0.633371,2,2
 backtest,Naive: previous available ranking,Naive,1995,TOR,WC,0.187383,6,4,13,-0.105562,2,2
 backtest,Naive: previous available ranking,Naive,1995,VAN,WC,0.000000,7,7,13,-0.158343,0,0
-backtest,Naive: previous available ranking,Naive,1995,DAL,WC,-0.562149,8,11,13,-0.844495,-3,3
-backtest,Naive: previous available ranking,Naive,1995,SJS,WC,-0.562149,9,13,13,-1.847332,-4,4
+backtest,Naive: previous available ranking,Naive,1995,SJS,WC,-0.562149,8,13,13,-1.847332,-5,5
+backtest,Naive: previous available ranking,Naive,1995,DAL,WC,-0.562149,9,11,13,-0.844495,-2,2
 backtest,Naive: previous available ranking,Naive,1995,LAK,WC,-0.655840,10,12,13,-0.844495,-2,2
 backtest,Naive: previous available ranking,Naive,1995,WIN,WC,-0.843223,11,8,13,-0.211124,3,3
 backtest,Naive: previous available ranking,Naive,1995,EDM,WC,-0.936915,12,10,13,-0.738933,2,2
@@ -1494,12 +1644,12 @@ backtest,Naive: previous available ranking,Naive,1996,OTT,EC,-2.164018,13,8,13,-
 backtest,Naive: previous available ranking,Naive,1996,DET,WC,2.586265,1,3,13,0.938876,-2,2
 backtest,Naive: previous available ranking,Naive,1996,COL,WC,1.161180,2,1,13,1.955992,1,1
 backtest,Naive: previous available ranking,Naive,1996,CHI,WC,0.633371,3,8,13,-0.078240,-5,5
-backtest,Naive: previous available ranking,Naive,1996,STL,WC,-0.105562,4,6,13,0.078240,-2,2
-backtest,Naive: previous available ranking,Naive,1996,TOR,WC,-0.105562,5,11,13,-1.095356,-6,6
+backtest,Naive: previous available ranking,Naive,1996,TOR,WC,-0.105562,4,11,13,-1.095356,-7,7
+backtest,Naive: previous available ranking,Naive,1996,STL,WC,-0.105562,5,6,13,0.078240,-1,1
 backtest,Naive: previous available ranking,Naive,1996,CAL,WC,-0.158343,6,10,13,-0.704157,-4,4
 backtest,Naive: previous available ranking,Naive,1996,VAN,WC,-0.158343,7,9,13,-0.391198,-2,2
-backtest,Naive: previous available ranking,Naive,1996,ANA,WC,-0.211124,8,4,13,0.234719,4,4
-backtest,Naive: previous available ranking,Naive,1996,PHO,WC,-0.211124,9,5,13,0.078240,4,4
+backtest,Naive: previous available ranking,Naive,1996,PHO,WC,-0.211124,8,5,13,0.078240,3,3
+backtest,Naive: previous available ranking,Naive,1996,ANA,WC,-0.211124,9,4,13,0.234719,5,5
 backtest,Naive: previous available ranking,Naive,1996,EDM,WC,-0.738933,10,7,13,-0.078240,3,3
 backtest,Naive: previous available ranking,Naive,1996,DAL,WC,-0.844495,11,2,13,1.721273,9,9
 backtest,Naive: previous available ranking,Naive,1996,LAK,WC,-0.844495,12,12,13,-1.173595,0,0
@@ -1512,8 +1662,8 @@ backtest,Naive: previous available ranking,Naive,1997,NYR,EC,0.312959,5,11,13,-0
 backtest,Naive: previous available ranking,Naive,1997,PIT,EC,0.156479,6,2,13,1.014366,4,4
 backtest,Naive: previous available ranking,Naive,1997,MTL,EC,-0.391198,7,7,13,0.316989,0,0
 backtest,Naive: previous available ranking,Naive,1997,OTT,EC,-0.391198,8,8,13,0.063398,0,0
-backtest,Naive: previous available ranking,Naive,1997,CAR,EC,-0.547678,9,9,13,-0.507183,0,0
-backtest,Naive: previous available ranking,Naive,1997,WAS,EC,-0.547678,10,4,13,0.633979,6,6
+backtest,Naive: previous available ranking,Naive,1997,WAS,EC,-0.547678,9,4,13,0.633979,5,5
+backtest,Naive: previous available ranking,Naive,1997,CAR,EC,-0.547678,10,9,13,-0.507183,1,1
 backtest,Naive: previous available ranking,Naive,1997,TBL,EC,-0.625918,11,13,13,-2.409120,-2,2
 backtest,Naive: previous available ranking,Naive,1997,NYI,EC,-0.938876,12,10,13,-0.697377,2,2
 backtest,Naive: previous available ranking,Naive,1997,BOS,EC,-1.643034,13,5,13,0.570581,8,8
@@ -1523,8 +1673,8 @@ backtest,Naive: previous available ranking,Naive,1997,DET,WC,0.938876,3,2,13,1.3
 backtest,Naive: previous available ranking,Naive,1997,ANA,WC,0.234719,4,12,13,-1.077764,-8,8
 backtest,Naive: previous available ranking,Naive,1997,PHO,WC,0.078240,5,6,13,0.000000,-1,1
 backtest,Naive: previous available ranking,Naive,1997,STL,WC,0.078240,6,3,13,1.014366,3,3
-backtest,Naive: previous available ranking,Naive,1997,CHI,WC,-0.078240,7,9,13,-0.570581,-2,2
-backtest,Naive: previous available ranking,Naive,1997,EDM,WC,-0.078240,8,7,13,-0.126796,1,1
+backtest,Naive: previous available ranking,Naive,1997,EDM,WC,-0.078240,7,7,13,-0.126796,0,0
+backtest,Naive: previous available ranking,Naive,1997,CHI,WC,-0.078240,8,9,13,-0.570581,-1,1
 backtest,Naive: previous available ranking,Naive,1997,VAN,WC,-0.391198,9,13,13,-1.141162,-4,4
 backtest,Naive: previous available ranking,Naive,1997,CAL,WC,-0.704157,10,11,13,-0.950968,-1,1
 backtest,Naive: previous available ranking,Naive,1997,TOR,WC,-1.095356,11,10,13,-0.824173,1,1
@@ -1549,8 +1699,8 @@ backtest,Naive: previous available ranking,Naive,1998,DET,WC,1.331356,2,3,13,0.6
 backtest,Naive: previous available ranking,Naive,1998,STL,WC,1.014366,3,5,13,0.316082,-2,2
 backtest,Naive: previous available ranking,Naive,1998,COL,WC,0.824173,4,2,13,1.011462,2,2
 backtest,Naive: previous available ranking,Naive,1998,LAK,WC,0.316989,5,11,13,-0.821813,-6,6
-backtest,Naive: previous available ranking,Naive,1998,NAS,WC,0.000000,6,12,13,-1.201111,-6,6
-backtest,Naive: previous available ranking,Naive,1998,PHO,WC,0.000000,7,4,13,0.505731,3,3
+backtest,Naive: previous available ranking,Naive,1998,PHO,WC,0.000000,6,4,13,0.505731,2,2
+backtest,Naive: previous available ranking,Naive,1998,NAS,WC,0.000000,7,12,13,-1.201111,-5,5
 backtest,Naive: previous available ranking,Naive,1998,EDM,WC,-0.126796,8,8,13,-0.252866,0,0
 backtest,Naive: previous available ranking,Naive,1998,SJS,WC,-0.253592,9,7,13,-0.126433,2,2
 backtest,Naive: previous available ranking,Naive,1998,CHI,WC,-0.570581,10,10,13,-0.758597,0,0
@@ -1595,8 +1745,8 @@ backtest,Naive: previous available ranking,Naive,2000,PIT,EC,0.113265,7,5,15,0.5
 backtest,Naive: previous available ranking,Naive,2000,BUF,EC,-0.062925,8,4,15,0.675672,4,4
 backtest,Naive: previous available ranking,Naive,2000,CAR,EC,-0.121655,9,8,15,0.109466,1,1
 backtest,Naive: previous available ranking,Naive,2000,MTL,EC,-0.180385,10,11,15,-0.909703,-1,1
-backtest,Naive: previous available ranking,Naive,2000,BOS,EC,-0.767686,11,9,15,0.109466,2,2
-backtest,Naive: previous available ranking,Naive,2000,NYR,EC,-0.767686,12,10,15,-0.796462,2,2
+backtest,Naive: previous available ranking,Naive,2000,NYR,EC,-0.767686,11,10,15,-0.796462,1,1
+backtest,Naive: previous available ranking,Naive,2000,BOS,EC,-0.767686,12,9,15,0.109466,3,3
 backtest,Naive: previous available ranking,Naive,2000,NYI,EC,-1.648637,13,15,15,-1.928873,-2,2
 backtest,Naive: previous available ranking,Naive,2000,TBL,EC,-1.883557,14,14,15,-1.532529,0,0
 backtest,Naive: previous available ranking,Naive,2000,ATL,EC,-2.764508,15,13,15,-1.475908,2,2
@@ -1622,8 +1772,8 @@ backtest,Naive: previous available ranking,Naive,2001,BUF,EC,0.675672,4,10,15,-0
 backtest,Naive: previous available ranking,Naive,2001,PIT,EC,0.562431,5,12,15,-1.134169,-7,7
 backtest,Naive: previous available ranking,Naive,2001,WAS,EC,0.562431,6,9,15,-0.068805,-3,3
 backtest,Naive: previous available ranking,Naive,2001,TOR,EC,0.222707,7,2,15,0.929974,5,5
-backtest,Naive: previous available ranking,Naive,2001,BOS,EC,0.109466,8,1,15,0.996559,7,7
-backtest,Naive: previous available ranking,Naive,2001,CAR,EC,0.109466,9,7,15,0.330707,2,2
+backtest,Naive: previous available ranking,Naive,2001,CAR,EC,0.109466,8,7,15,0.330707,1,1
+backtest,Naive: previous available ranking,Naive,2001,BOS,EC,0.109466,9,1,15,0.996559,8,8
 backtest,Naive: previous available ranking,Naive,2001,NYR,EC,-0.796462,10,11,15,-0.401731,-1,1
 backtest,Naive: previous available ranking,Naive,2001,MTL,EC,-0.909703,11,8,15,0.064366,3,3
 backtest,Naive: previous available ranking,Naive,2001,FLO,EC,-1.136185,12,14,15,-1.733436,-2,2
@@ -1637,12 +1787,12 @@ backtest,Naive: previous available ranking,Naive,2001,STL,WC,0.958774,4,4,15,0.7
 backtest,Naive: previous available ranking,Naive,2001,SJS,WC,0.505810,5,3,15,0.863389,2,2
 backtest,Naive: previous available ranking,Naive,2001,EDM,WC,0.392569,6,9,15,0.397292,-3,3
 backtest,Naive: previous available ranking,Naive,2001,LAK,WC,0.335948,7,6,15,0.597048,1,1
-backtest,Naive: previous available ranking,Naive,2001,PHO,WC,0.222707,8,7,15,0.597048,1,1
-backtest,Naive: previous available ranking,Naive,2001,VAN,WC,0.222707,9,8,15,0.530462,1,1
+backtest,Naive: previous available ranking,Naive,2001,VAN,WC,0.222707,8,8,15,0.530462,0,0
+backtest,Naive: previous available ranking,Naive,2001,PHO,WC,0.222707,9,7,15,0.597048,2,2
 backtest,Naive: previous available ranking,Naive,2001,NAS,WC,-0.343498,10,14,15,-1.134169,-4,4
 backtest,Naive: previous available ranking,Naive,2001,CAL,WC,-0.739842,11,11,15,-0.468316,0,0
-backtest,Naive: previous available ranking,Naive,2001,CBS,WC,-0.853083,12,15,15,-1.933192,-3,3
-backtest,Naive: previous available ranking,Naive,2001,CHI,WC,-0.853083,13,5,15,0.663633,8,8
+backtest,Naive: previous available ranking,Naive,2001,CHI,WC,-0.853083,12,5,15,0.663633,7,7
+backtest,Naive: previous available ranking,Naive,2001,CBS,WC,-0.853083,13,15,15,-1.933192,-2,2
 backtest,Naive: previous available ranking,Naive,2001,MIN,WC,-1.022944,14,12,15,-0.867828,2,2
 backtest,Naive: previous available ranking,Naive,2001,ANA,WC,-1.136185,15,13,15,-1.134169,2,2
 backtest,Naive: previous available ranking,Naive,2002,BOS,EC,0.996559,1,7,15,-0.010874,-6,6
@@ -1695,8 +1845,8 @@ backtest,Naive: previous available ranking,Naive,2003,DET,WC,1.489792,2,1,15,1.4
 backtest,Naive: previous available ranking,Naive,2003,COL,WC,1.163560,3,4,15,0.840764,-1,1
 backtest,Naive: previous available ranking,Naive,2003,VAN,WC,1.098314,4,3,15,0.904619,1,1
 backtest,Naive: previous available ranking,Naive,2003,STL,WC,0.772082,5,7,15,0.266064,-2,2
-backtest,Naive: previous available ranking,Naive,2003,ANA,WC,0.511097,6,12,15,-0.691767,-6,6
-backtest,Naive: previous available ranking,Naive,2003,MIN,WC,0.511097,7,10,15,-0.244779,-3,3
+backtest,Naive: previous available ranking,Naive,2003,MIN,WC,0.511097,6,10,15,-0.244779,-4,4
+backtest,Naive: previous available ranking,Naive,2003,ANA,WC,0.511097,7,12,15,-0.691767,-5,5
 backtest,Naive: previous available ranking,Naive,2003,EDM,WC,0.315357,8,9,15,0.138353,-1,1
 backtest,Naive: previous available ranking,Naive,2003,CHI,WC,-0.532845,9,15,15,-1.777310,-6,6
 backtest,Naive: previous available ranking,Naive,2003,LAK,WC,-0.598092,10,11,15,-0.372490,-1,1
@@ -1726,8 +1876,8 @@ backtest,Naive: previous available ranking,Naive,2005,VAN,WC,0.904619,3,9,15,0.0
 backtest,Naive: previous available ranking,Naive,2005,COL,WC,0.840764,4,7,15,0.219955,-3,3
 backtest,Naive: previous available ranking,Naive,2005,DAL,WC,0.649197,5,2,15,1.249104,3,3
 backtest,Naive: previous available ranking,Naive,2005,CAL,WC,0.457631,6,4,15,0.704261,2,2
-backtest,Naive: previous available ranking,Naive,2005,NAS,WC,0.266064,7,3,15,0.885875,4,4
-backtest,Naive: previous available ranking,Naive,2005,STL,WC,0.266064,8,15,15,-2.080495,-7,7
+backtest,Naive: previous available ranking,Naive,2005,STL,WC,0.266064,7,15,15,-2.080495,-8,8
+backtest,Naive: previous available ranking,Naive,2005,NAS,WC,0.266064,8,3,15,0.885875,5,5
 backtest,Naive: previous available ranking,Naive,2005,EDM,WC,0.138353,9,8,15,0.219955,1,1
 backtest,Naive: previous available ranking,Naive,2005,MIN,WC,-0.244779,10,11,15,-0.445965,-1,1
 backtest,Naive: previous available ranking,Naive,2005,LAK,WC,-0.372490,11,10,15,-0.143274,1,1
@@ -1781,18 +1931,18 @@ backtest,Naive: previous available ranking,Naive,2007,BOS,EC,-0.951930,13,8,15,0
 backtest,Naive: previous available ranking,Naive,2007,WAS,EC,-1.323616,14,7,15,0.281191,7,7
 backtest,Naive: previous available ranking,Naive,2007,PHI,EC,-2.190884,15,5,15,0.377051,10,10
 backtest,Naive: previous available ranking,Naive,2007,DET,WC,1.340135,1,1,15,2.294261,0,0
-backtest,Naive: previous available ranking,Naive,2007,AND,WC,1.154292,2,3,15,1.048075,-1,1
-backtest,Naive: previous available ranking,Naive,2007,NAS,WC,1.154292,3,8,15,-0.006391,-5,5
-backtest,Naive: previous available ranking,Naive,2007,DAL,WC,0.968449,4,5,15,0.568772,-1,1
-backtest,Naive: previous available ranking,Naive,2007,SJS,WC,0.968449,5,2,15,1.623238,3,3
+backtest,Naive: previous available ranking,Naive,2007,NAS,WC,1.154292,2,8,15,-0.006391,-6,6
+backtest,Naive: previous available ranking,Naive,2007,AND,WC,1.154292,3,3,15,1.048075,0,0
+backtest,Naive: previous available ranking,Naive,2007,SJS,WC,0.968449,4,2,15,1.623238,2,2
+backtest,Naive: previous available ranking,Naive,2007,DAL,WC,0.968449,5,5,15,0.568772,0,0
 backtest,Naive: previous available ranking,Naive,2007,VAN,WC,0.844554,6,11,15,-0.293972,-5,5
 backtest,Naive: previous available ranking,Naive,2007,MIN,WC,0.782606,7,4,15,0.664633,3,3
 backtest,Naive: previous available ranking,Naive,2007,CAL,WC,0.287024,8,7,15,0.281191,1,1
 backtest,Naive: previous available ranking,Naive,2007,COL,WC,0.225077,9,6,15,0.377051,3,3
 backtest,Naive: previous available ranking,Naive,2007,STL,WC,-0.642191,10,14,15,-1.156717,-4,4
 backtest,Naive: previous available ranking,Naive,2007,CBS,WC,-1.137773,11,13,15,-1.060856,-2,2
-backtest,Naive: previous available ranking,Naive,2007,CHI,WC,-1.261668,12,10,15,-0.293972,2,2
-backtest,Naive: previous available ranking,Naive,2007,EDM,WC,-1.261668,13,9,15,-0.293972,4,4
+backtest,Naive: previous available ranking,Naive,2007,EDM,WC,-1.261668,12,9,15,-0.293972,3,3
+backtest,Naive: previous available ranking,Naive,2007,CHI,WC,-1.261668,13,10,15,-0.293972,3,3
 backtest,Naive: previous available ranking,Naive,2007,LAK,WC,-1.447511,14,15,15,-1.923601,-1,1
 backtest,Naive: previous available ranking,Naive,2007,PHO,WC,-1.509459,15,12,15,-0.773275,3,3
 backtest,Naive: previous available ranking,Naive,2008,MTL,EC,1.239796,1,9,15,0.115770,-8,8
@@ -1800,9 +1950,9 @@ backtest,Naive: previous available ranking,Naive,2008,PIT,EC,1.048075,2,4,15,0.5
 backtest,Naive: previous available ranking,Naive,2008,NJD,EC,0.760493,3,3,15,1.056400,0,0
 backtest,Naive: previous available ranking,Naive,2008,NYR,EC,0.568772,4,7,15,0.260482,-3,3
 backtest,Naive: previous available ranking,Naive,2008,PHI,EC,0.377051,5,5,15,0.549907,0,0
-backtest,Naive: previous available ranking,Naive,2008,BOS,EC,0.281191,6,1,15,1.779961,5,5
-backtest,Naive: previous available ranking,Naive,2008,OTT,EC,0.281191,7,11,15,-0.607792,-4,4
-backtest,Naive: previous available ranking,Naive,2008,WAS,EC,0.281191,8,2,15,1.201112,6,6
+backtest,Naive: previous available ranking,Naive,2008,OTT,EC,0.281191,6,11,15,-0.607792,-5,5
+backtest,Naive: previous available ranking,Naive,2008,WAS,EC,0.281191,7,2,15,1.201112,5,5
+backtest,Naive: previous available ranking,Naive,2008,BOS,EC,0.281191,8,1,15,1.779961,7,7
 backtest,Naive: previous available ranking,Naive,2008,CAR,EC,0.089470,9,6,15,0.405194,3,3
 backtest,Naive: previous available ranking,Naive,2008,BUF,EC,-0.102251,10,10,15,-0.028942,0,0
 backtest,Naive: previous available ranking,Naive,2008,FLO,EC,-0.581554,11,8,15,0.115770,3,3
@@ -1818,8 +1968,8 @@ backtest,Naive: previous available ranking,Naive,2008,DAL,WC,0.568772,5,12,15,-0
 backtest,Naive: previous available ranking,Naive,2008,COL,WC,0.377051,6,15,15,-1.620778,-9,9
 backtest,Naive: previous available ranking,Naive,2008,CAL,WC,0.281191,7,5,15,0.477551,2,2
 backtest,Naive: previous available ranking,Naive,2008,NAS,WC,-0.006391,8,10,15,-0.246011,-2,2
-backtest,Naive: previous available ranking,Naive,2008,CHI,WC,-0.293972,9,3,15,0.911688,6,6
-backtest,Naive: previous available ranking,Naive,2008,EDM,WC,-0.293972,10,11,15,-0.463079,-1,1
+backtest,Naive: previous available ranking,Naive,2008,EDM,WC,-0.293972,9,11,15,-0.463079,-2,2
+backtest,Naive: previous available ranking,Naive,2008,CHI,WC,-0.293972,10,3,15,0.911688,7,7
 backtest,Naive: previous available ranking,Naive,2008,VAN,WC,-0.293972,11,4,15,0.622263,7,7
 backtest,Naive: previous available ranking,Naive,2008,PHO,WC,-0.773275,12,13,15,-0.897216,-1,1
 backtest,Naive: previous available ranking,Naive,2008,CBS,WC,-1.060856,13,6,15,0.043414,7,7
@@ -1828,8 +1978,8 @@ backtest,Naive: previous available ranking,Naive,2008,LAK,WC,-1.923601,15,14,15,
 backtest,Naive: previous available ranking,Naive,2009,BOS,EC,1.779961,1,6,15,-0.079797,-5,5
 backtest,Naive: previous available ranking,Naive,2009,WAS,EC,1.201112,2,1,15,2.236902,1,1
 backtest,Naive: previous available ranking,Naive,2009,NJD,EC,1.056400,3,2,15,0.846882,1,1
-backtest,Naive: previous available ranking,Naive,2009,PHI,EC,0.549907,4,7,15,-0.311467,-3,3
-backtest,Naive: previous available ranking,Naive,2009,PIT,EC,0.549907,5,3,15,0.692436,2,2
+backtest,Naive: previous available ranking,Naive,2009,PIT,EC,0.549907,4,3,15,0.692436,1,1
+backtest,Naive: previous available ranking,Naive,2009,PHI,EC,0.549907,5,7,15,-0.311467,-2,2
 backtest,Naive: previous available ranking,Naive,2009,CAR,EC,0.405194,6,11,15,-0.929254,-5,5
 backtest,Naive: previous available ranking,Naive,2009,NYR,EC,0.260482,7,9,15,-0.388691,-2,2
 backtest,Naive: previous available ranking,Naive,2009,FLO,EC,0.115770,8,14,15,-1.160924,-6,6
@@ -1852,8 +2002,8 @@ backtest,Naive: previous available ranking,Naive,2009,MIN,WC,-0.173655,9,13,15,-
 backtest,Naive: previous available ranking,Naive,2009,NAS,WC,-0.246011,10,7,15,0.615212,3,3
 backtest,Naive: previous available ranking,Naive,2009,EDM,WC,-0.463079,11,15,15,-2.319273,-4,4
 backtest,Naive: previous available ranking,Naive,2009,DAL,WC,-0.607792,12,12,15,-0.311467,0,0
-backtest,Naive: previous available ranking,Naive,2009,LAK,WC,-0.897216,13,6,15,0.692436,7,7
-backtest,Naive: previous available ranking,Naive,2009,PHO,WC,-0.897216,14,3,15,1.155775,11,11
+backtest,Naive: previous available ranking,Naive,2009,PHO,WC,-0.897216,13,3,15,1.155775,10,10
+backtest,Naive: previous available ranking,Naive,2009,LAK,WC,-0.897216,14,6,15,0.692436,8,8
 backtest,Naive: previous available ranking,Naive,2009,COL,WC,-1.620778,15,8,15,0.229096,7,7
 backtest,Ridge + external,External,1995,BOS,EC,0.655944,1,5,13,0.475028,-4,4
 backtest,Ridge + external,External,1995,PIT,EC,0.551918,2,2,13,1.055618,0,0
@@ -3870,3 +4020,406 @@ backtest,Pairwise boosting,Pairwise,2009,EDM,WC,0.381479,12,15,15,-2.319273,-3,3
 backtest,Pairwise boosting,Pairwise,2009,PHO,WC,0.334385,13,3,15,1.155775,10,10
 backtest,Pairwise boosting,Pairwise,2009,LAK,WC,0.267037,14,6,15,0.692436,8,8
 backtest,Pairwise boosting,Pairwise,2009,COL,WC,0.249836,15,8,15,0.229096,7,7
+backtest,Blend: naive + best model,Blend,1995,BOS,EC,0.980740,1,5,13,0.475028,-4,4
+backtest,Blend: naive + best model,Blend,1995,PIT,EC,0.843201,2,2,13,1.055618,0,0
+backtest,Blend: naive + best model,Blend,1995,PHI,EC,0.750513,3,1,13,1.108399,2,2
+backtest,Blend: naive + best model,Blend,1995,NJD,EC,0.647603,4,9,13,0.211124,-5,5
+backtest,Blend: naive + best model,Blend,1995,WAS,EC,0.466861,5,7,13,0.369466,-2,2
+backtest,Blend: naive + best model,Blend,1995,NYR,EC,0.372642,6,3,13,0.738933,3,3
+backtest,Blend: naive + best model,Blend,1995,BUF,EC,0.238590,7,11,13,-0.475028,-4,4
+backtest,Blend: naive + best model,Blend,1995,FLO,EC,-0.336123,8,4,13,0.527809,4,4
+backtest,Blend: naive + best model,Blend,1995,MTL,EC,-0.372233,9,6,13,0.422247,3,3
+backtest,Blend: naive + best model,Blend,1995,HAR,EC,-0.570147,10,10,13,-0.263905,0,0
+backtest,Blend: naive + best model,Blend,1995,NYI,EC,-0.654825,11,12,13,-1.477866,-1,1
+backtest,Blend: naive + best model,Blend,1995,TBL,EC,-1.100401,12,8,13,0.316686,4,4
+backtest,Blend: naive + best model,Blend,1995,OTT,EC,-2.730337,13,13,13,-2.164018,0,0
+backtest,Blend: naive + best model,Blend,1995,DET,WC,1.964812,1,1,13,2.586265,0,0
+backtest,Blend: naive + best model,Blend,1995,COL,WC,1.216687,2,2,13,1.161180,0,0
+backtest,Blend: naive + best model,Blend,1995,STL,WC,1.041417,3,5,13,-0.105562,-2,2
+backtest,Blend: naive + best model,Blend,1995,CHI,WC,0.815740,4,3,13,0.633371,1,1
+backtest,Blend: naive + best model,Blend,1995,CAL,WC,0.679861,5,6,13,-0.158343,-1,1
+backtest,Blend: naive + best model,Blend,1995,VAN,WC,0.311926,6,7,13,-0.158343,-1,1
+backtest,Blend: naive + best model,Blend,1995,TOR,WC,0.210677,7,4,13,-0.105562,3,3
+backtest,Blend: naive + best model,Blend,1995,DAL,WC,-0.183460,8,11,13,-0.844495,-3,3
+backtest,Blend: naive + best model,Blend,1995,WIN,WC,-0.702043,9,8,13,-0.211124,1,1
+backtest,Blend: naive + best model,Blend,1995,LAK,WC,-0.707091,10,12,13,-0.844495,-2,2
+backtest,Blend: naive + best model,Blend,1995,EDM,WC,-0.882123,11,10,13,-0.738933,1,1
+backtest,Blend: naive + best model,Blend,1995,ANA,WC,-1.130417,12,9,13,-0.211124,3,3
+backtest,Blend: naive + best model,Blend,1995,SJS,WC,-1.172069,13,13,13,-1.847332,0,0
+backtest,Blend: naive + best model,Blend,1996,PHI,EC,1.191182,1,2,13,1.643034,-1,1
+backtest,Blend: naive + best model,Blend,1996,PIT,EC,0.978174,2,6,13,0.156479,-4,4
+backtest,Blend: naive + best model,Blend,1996,BOS,EC,0.674507,3,13,13,-1.643034,-10,10
+backtest,Blend: naive + best model,Blend,1996,NYR,EC,0.564591,4,5,13,0.312959,-1,1
+backtest,Blend: naive + best model,Blend,1996,NJD,EC,0.541342,5,1,13,1.721273,4,4
+backtest,Blend: naive + best model,Blend,1996,WAS,EC,0.477772,6,9,13,-0.547678,-3,3
+backtest,Blend: naive + best model,Blend,1996,FLO,EC,0.463210,7,4,13,0.547678,3,3
+backtest,Blend: naive + best model,Blend,1996,MTL,EC,0.020716,8,7,13,-0.391198,1,1
+backtest,Blend: naive + best model,Blend,1996,TBL,EC,-0.153220,9,11,13,-0.625918,-2,2
+backtest,Blend: naive + best model,Blend,1996,BUF,EC,-0.423803,10,3,13,0.782397,7,7
+backtest,Blend: naive + best model,Blend,1996,HAR,EC,-0.698869,11,10,13,-0.547678,1,1
+backtest,Blend: naive + best model,Blend,1996,NYI,EC,-1.222113,12,12,13,-0.938876,0,0
+backtest,Blend: naive + best model,Blend,1996,OTT,EC,-2.353257,13,8,13,-0.391198,5,5
+backtest,Blend: naive + best model,Blend,1996,DET,WC,2.516580,1,3,13,0.938876,-2,2
+backtest,Blend: naive + best model,Blend,1996,COL,WC,1.423134,2,1,13,1.955992,1,1
+backtest,Blend: naive + best model,Blend,1996,CHI,WC,0.625592,3,8,13,-0.078240,-5,5
+backtest,Blend: naive + best model,Blend,1996,CAL,WC,0.351177,4,10,13,-0.704157,-6,6
+backtest,Blend: naive + best model,Blend,1996,STL,WC,0.084023,5,6,13,0.078240,-1,1
+backtest,Blend: naive + best model,Blend,1996,TOR,WC,-0.040991,6,11,13,-1.095356,-5,5
+backtest,Blend: naive + best model,Blend,1996,VAN,WC,-0.099706,7,9,13,-0.391198,-2,2
+backtest,Blend: naive + best model,Blend,1996,DAL,WC,-0.584181,8,2,13,1.721273,6,6
+backtest,Blend: naive + best model,Blend,1996,ANA,WC,-0.645683,9,4,13,0.234719,5,5
+backtest,Blend: naive + best model,Blend,1996,PHO,WC,-0.657499,10,5,13,0.078240,5,5
+backtest,Blend: naive + best model,Blend,1996,EDM,WC,-0.813573,11,7,13,-0.078240,4,4
+backtest,Blend: naive + best model,Blend,1996,LAK,WC,-0.911101,12,12,13,-1.173595,0,0
+backtest,Blend: naive + best model,Blend,1996,SJS,WC,-1.308003,13,13,13,-1.564794,0,0
+backtest,Blend: naive + best model,Blend,1997,PHI,EC,2.026668,1,3,13,0.824173,-2,2
+backtest,Blend: naive + best model,Blend,1997,NJD,EC,1.058320,2,1,13,1.584947,1,1
+backtest,Blend: naive + best model,Blend,1997,PIT,EC,0.781857,3,2,13,1.014366,1,1
+backtest,Blend: naive + best model,Blend,1997,BUF,EC,0.232642,4,6,13,0.443785,-2,2
+backtest,Blend: naive + best model,Blend,1997,FLO,EC,0.216258,5,12,13,-1.204560,-7,7
+backtest,Blend: naive + best model,Blend,1997,NYR,EC,0.082518,6,11,13,-0.887570,-5,5
+backtest,Blend: naive + best model,Blend,1997,WAS,EC,-0.197387,7,4,13,0.633979,3,3
+backtest,Blend: naive + best model,Blend,1997,MTL,EC,-0.438665,8,7,13,0.316989,1,1
+backtest,Blend: naive + best model,Blend,1997,OTT,EC,-0.449001,9,8,13,0.063398,1,1
+backtest,Blend: naive + best model,Blend,1997,TBL,EC,-0.633828,10,13,13,-2.409120,-3,3
+backtest,Blend: naive + best model,Blend,1997,CAR,EC,-0.676764,11,9,13,-0.507183,2,2
+backtest,Blend: naive + best model,Blend,1997,NYI,EC,-1.032054,12,10,13,-0.697377,2,2
+backtest,Blend: naive + best model,Blend,1997,BOS,EC,-1.230039,13,5,13,0.570581,8,8
+backtest,Blend: naive + best model,Blend,1997,COL,WC,2.009128,1,4,13,0.824173,-3,3
+backtest,Blend: naive + best model,Blend,1997,DET,WC,1.808085,2,2,13,1.331356,0,0
+backtest,Blend: naive + best model,Blend,1997,DAL,WC,1.217677,3,1,13,1.711743,2,2
+backtest,Blend: naive + best model,Blend,1997,STL,WC,0.368805,4,3,13,1.014366,1,1
+backtest,Blend: naive + best model,Blend,1997,CHI,WC,0.286943,5,9,13,-0.570581,-4,4
+backtest,Blend: naive + best model,Blend,1997,PHO,WC,-0.031985,6,6,13,0.000000,0,0
+backtest,Blend: naive + best model,Blend,1997,VAN,WC,-0.146530,7,13,13,-1.141162,-6,6
+backtest,Blend: naive + best model,Blend,1997,ANA,WC,-0.311616,8,12,13,-1.077764,-4,4
+backtest,Blend: naive + best model,Blend,1997,CAL,WC,-0.313737,9,11,13,-0.950968,-2,2
+backtest,Blend: naive + best model,Blend,1997,EDM,WC,-0.660474,10,7,13,-0.126796,3,3
+backtest,Blend: naive + best model,Blend,1997,SJS,WC,-1.169612,11,8,13,-0.253592,3,3
+backtest,Blend: naive + best model,Blend,1997,TOR,WC,-1.293058,12,10,13,-0.824173,2,2
+backtest,Blend: naive + best model,Blend,1997,LAK,WC,-1.504151,13,5,13,0.316989,8,8
+backtest,Blend: naive + best model,Blend,1998,NJD,EC,1.515120,1,1,14,1.453977,0,0
+backtest,Blend: naive + best model,Blend,1998,PIT,EC,1.254479,2,7,14,0.505731,-5,5
+backtest,Blend: naive + best model,Blend,1998,PHI,EC,1.247957,3,4,14,0.695380,-1,1
+backtest,Blend: naive + best model,Blend,1998,MTL,EC,0.714561,4,11,14,-0.442515,-7,7
+backtest,Blend: naive + best model,Blend,1998,WAS,EC,0.066493,5,12,14,-0.885029,-7,7
+backtest,Blend: naive + best model,Blend,1998,BUF,EC,0.052017,6,6,14,0.568947,0,0
+backtest,Blend: naive + best model,Blend,1998,BOS,EC,-0.081850,7,5,14,0.568947,2,2
+backtest,Blend: naive + best model,Blend,1998,OTT,EC,-0.232173,8,2,14,1.327544,6,6
+backtest,Blend: naive + best model,Blend,1998,CAR,EC,-0.607255,9,8,14,0.252866,1,1
+backtest,Blend: naive + best model,Blend,1998,NYR,EC,-0.614094,10,10,14,-0.316082,0,0
+backtest,Blend: naive + best model,Blend,1998,FLO,EC,-0.750923,11,9,14,-0.252866,2,2
+backtest,Blend: naive + best model,Blend,1998,NYI,EC,-0.875287,12,13,14,-1.517193,-1,1
+backtest,Blend: naive + best model,Blend,1998,TOR,EC,-0.885043,13,3,14,0.948246,10,10
+backtest,Blend: naive + best model,Blend,1998,TBL,EC,-2.496286,14,14,14,-2.212573,0,0
+backtest,Blend: naive + best model,Blend,1998,DET,WC,1.853605,1,3,13,0.695380,-2,2
+backtest,Blend: naive + best model,Blend,1998,DAL,WC,1.628034,2,1,13,2.022924,1,1
+backtest,Blend: naive + best model,Blend,1998,STL,WC,1.060694,3,5,13,0.316082,-2,2
+backtest,Blend: naive + best model,Blend,1998,COL,WC,0.835972,4,2,13,1.011462,2,2
+backtest,Blend: naive + best model,Blend,1998,PHO,WC,0.228591,5,4,13,0.505731,1,1
+backtest,Blend: naive + best model,Blend,1998,CHI,WC,-0.088379,6,10,13,-0.758597,-4,4
+backtest,Blend: naive + best model,Blend,1998,NAS,WC,-0.089370,7,12,13,-1.201111,-5,5
+backtest,Blend: naive + best model,Blend,1998,SJS,WC,-0.351499,8,7,13,-0.126433,1,1
+backtest,Blend: naive + best model,Blend,1998,EDM,WC,-0.356944,9,8,13,-0.252866,1,1
+backtest,Blend: naive + best model,Blend,1998,LAK,WC,-0.358902,10,11,13,-0.821813,-1,1
+backtest,Blend: naive + best model,Blend,1998,CAL,WC,-0.800060,11,9,13,-0.632164,2,2
+backtest,Blend: naive + best model,Blend,1998,ANA,WC,-0.893497,12,6,13,0.063216,6,6
+backtest,Blend: naive + best model,Blend,1998,VAN,WC,-0.975962,13,13,13,-1.517193,0,0
+backtest,Blend: naive + best model,Blend,1999,NJD,EC,1.604797,1,2,15,0.994216,-1,1
+backtest,Blend: naive + best model,Blend,1999,PHI,EC,1.226030,2,1,15,1.111676,1,1
+backtest,Blend: naive + best model,Blend,1999,PIT,EC,1.064343,3,7,15,0.113265,-4,4
+backtest,Blend: naive + best model,Blend,1999,OTT,EC,0.838137,4,6,15,0.524376,-2,2
+backtest,Blend: naive + best model,Blend,1999,TOR,EC,0.630780,5,4,15,0.818026,1,1
+backtest,Blend: naive + best model,Blend,1999,BUF,EC,0.456877,6,8,15,-0.062925,-2,2
+backtest,Blend: naive + best model,Blend,1999,BOS,EC,0.093537,7,12,15,-0.767686,-5,5
+backtest,Blend: naive + best model,Blend,1999,ATL,EC,-0.087783,8,15,15,-2.764508,-7,7
+backtest,Blend: naive + best model,Blend,1999,CAR,EC,-0.275707,9,9,15,-0.121655,0,0
+backtest,Blend: naive + best model,Blend,1999,MTL,EC,-0.311041,10,10,15,-0.180385,0,0
+backtest,Blend: naive + best model,Blend,1999,WAS,EC,-0.344807,11,3,15,0.935486,8,8
+backtest,Blend: naive + best model,Blend,1999,FLO,EC,-0.353795,12,5,15,0.700566,7,7
+backtest,Blend: naive + best model,Blend,1999,NYR,EC,-0.392111,13,11,15,-0.767686,2,2
+backtest,Blend: naive + best model,Blend,1999,NYI,EC,-0.848390,14,13,15,-1.648637,1,1
+backtest,Blend: naive + best model,Blend,1999,TBL,EC,-2.431784,15,14,15,-1.883557,1,1
+backtest,Blend: naive + best model,Blend,1999,DAL,WC,1.835959,1,3,13,0.935486,-2,2
+backtest,Blend: naive + best model,Blend,1999,COL,WC,1.106208,2,4,13,0.583106,-2,2
+backtest,Blend: naive + best model,Blend,1999,STL,WC,1.069420,3,1,13,1.640247,2,2
+backtest,Blend: naive + best model,Blend,1999,DET,WC,0.871091,4,2,13,1.287866,2,2
+backtest,Blend: naive + best model,Blend,1999,PHO,WC,0.232982,5,6,13,0.230725,-1,1
+backtest,Blend: naive + best model,Blend,1999,EDM,WC,0.127579,6,7,13,0.113265,-1,1
+backtest,Blend: naive + best model,Blend,1999,ANA,WC,-0.316882,7,9,13,-0.180385,-2,2
+backtest,Blend: naive + best model,Blend,1999,SJS,WC,-0.623896,8,8,13,0.054535,0,0
+backtest,Blend: naive + best model,Blend,1999,CHI,WC,-0.686072,9,11,13,-0.474035,-2,2
+backtest,Blend: naive + best model,Blend,1999,LAK,WC,-0.770030,10,5,13,0.465645,5,5
+backtest,Blend: naive + best model,Blend,1999,CAL,WC,-0.831597,11,12,13,-0.532766,-1,1
+backtest,Blend: naive + best model,Blend,1999,VAN,WC,-1.240658,12,10,13,-0.180385,2,2
+backtest,Blend: naive + best model,Blend,1999,NAS,WC,-1.643187,13,13,13,-0.943876,0,0
+backtest,Blend: naive + best model,Blend,2000,NJD,EC,1.237343,1,1,15,1.411738,0,0
+backtest,Blend: naive + best model,Blend,2000,PHI,EC,1.197071,2,3,15,0.788913,-1,1
+backtest,Blend: naive + best model,Blend,2000,OTT,EC,0.788666,3,2,15,1.298497,1,1
+backtest,Blend: naive + best model,Blend,2000,TOR,EC,0.486455,4,7,15,0.222707,-3,3
+backtest,Blend: naive + best model,Blend,2000,WAS,EC,0.481646,5,6,15,0.562431,-1,1
+backtest,Blend: naive + best model,Blend,2000,PIT,EC,0.407080,6,5,15,0.562431,1,1
+backtest,Blend: naive + best model,Blend,2000,BUF,EC,0.386989,7,4,15,0.675672,3,3
+backtest,Blend: naive + best model,Blend,2000,CAR,EC,0.132642,8,8,15,0.109466,0,0
+backtest,Blend: naive + best model,Blend,2000,FLO,EC,0.099368,9,12,15,-1.136185,-3,3
+backtest,Blend: naive + best model,Blend,2000,BOS,EC,-0.118158,10,9,15,0.109466,1,1
+backtest,Blend: naive + best model,Blend,2000,MTL,EC,-0.426240,11,11,15,-0.909703,0,0
+backtest,Blend: naive + best model,Blend,2000,NYR,EC,-0.472493,12,10,15,-0.796462,2,2
+backtest,Blend: naive + best model,Blend,2000,NYI,EC,-1.715452,13,15,15,-1.928873,-2,2
+backtest,Blend: naive + best model,Blend,2000,TBL,EC,-1.996250,14,14,15,-1.532529,0,0
+backtest,Blend: naive + best model,Blend,2000,ATL,EC,-3.017088,15,13,15,-1.475908,2,2
+backtest,Blend: naive + best model,Blend,2000,STL,WC,1.666915,1,4,15,0.958774,-3,3
+backtest,Blend: naive + best model,Blend,2000,DET,WC,1.449186,2,2,15,1.411738,0,0
+backtest,Blend: naive + best model,Blend,2000,DAL,WC,0.787787,3,3,15,1.128636,0,0
+backtest,Blend: naive + best model,Blend,2000,COL,WC,0.632371,4,1,15,1.808082,3,3
+backtest,Blend: naive + best model,Blend,2000,LAK,WC,0.513375,5,7,15,0.335948,-2,2
+backtest,Blend: naive + best model,Blend,2000,PHO,WC,0.086375,6,9,15,0.222707,-3,3
+backtest,Blend: naive + best model,Blend,2000,EDM,WC,-0.024847,7,6,15,0.392569,1,1
+backtest,Blend: naive + best model,Blend,2000,ANA,WC,-0.043808,8,15,15,-1.136185,-7,7
+backtest,Blend: naive + best model,Blend,2000,SJS,WC,-0.081811,9,5,15,0.505810,4,4
+backtest,Blend: naive + best model,Blend,2000,CBS,WC,-0.087574,10,13,15,-0.853083,-3,3
+backtest,Blend: naive + best model,Blend,2000,MIN,WC,-0.087574,11,14,15,-1.022944,-3,3
+backtest,Blend: naive + best model,Blend,2000,VAN,WC,-0.201008,12,8,15,0.222707,4,4
+backtest,Blend: naive + best model,Blend,2000,CHI,WC,-0.350831,13,12,15,-0.853083,1,1
+backtest,Blend: naive + best model,Blend,2000,CAL,WC,-0.557761,14,11,15,-0.739842,3,3
+backtest,Blend: naive + best model,Blend,2000,NAS,WC,-1.172371,15,10,15,-0.343498,5,5
+backtest,Blend: naive + best model,Blend,2001,NJD,EC,1.490562,1,5,15,0.597048,-4,4
+backtest,Blend: naive + best model,Blend,2001,OTT,EC,1.022398,2,6,15,0.530462,-4,4
+backtest,Blend: naive + best model,Blend,2001,PHI,EC,0.723436,3,3,15,0.730218,0,0
+backtest,Blend: naive + best model,Blend,2001,PIT,EC,0.704171,4,12,15,-1.134169,-8,8
+backtest,Blend: naive + best model,Blend,2001,BUF,EC,0.561605,5,10,15,-0.268561,-5,5
+backtest,Blend: naive + best model,Blend,2001,TOR,EC,0.539937,6,2,15,0.929974,4,4
+backtest,Blend: naive + best model,Blend,2001,WAS,EC,0.329512,7,9,15,-0.068805,-2,2
+backtest,Blend: naive + best model,Blend,2001,CAR,EC,0.215618,8,7,15,0.330707,1,1
+backtest,Blend: naive + best model,Blend,2001,BOS,EC,0.208332,9,1,15,0.996559,8,8
+backtest,Blend: naive + best model,Blend,2001,NYR,EC,-0.520577,10,11,15,-0.401731,-1,1
+backtest,Blend: naive + best model,Blend,2001,MTL,EC,-0.726997,11,8,15,0.064366,3,3
+backtest,Blend: naive + best model,Blend,2001,FLO,EC,-0.910315,12,14,15,-1.733436,-2,2
+backtest,Blend: naive + best model,Blend,2001,NYI,EC,-1.395915,13,4,15,0.663633,9,9
+backtest,Blend: naive + best model,Blend,2001,TBL,EC,-1.939329,14,13,15,-1.134169,1,1
+backtest,Blend: naive + best model,Blend,2001,ATL,EC,-1.945446,15,15,15,-2.132947,0,0
+backtest,Blend: naive + best model,Blend,2001,COL,WC,1.720577,1,2,15,0.863389,-1,1
+backtest,Blend: naive + best model,Blend,2001,DET,WC,1.304749,2,1,15,1.995338,1,1
+backtest,Blend: naive + best model,Blend,2001,STL,WC,1.176921,3,4,15,0.796803,-1,1
+backtest,Blend: naive + best model,Blend,2001,DAL,WC,1.080382,4,10,15,0.264121,-6,6
+backtest,Blend: naive + best model,Blend,2001,VAN,WC,0.472210,5,8,15,0.530462,-3,3
+backtest,Blend: naive + best model,Blend,2001,SJS,WC,0.444654,6,3,15,0.863389,3,3
+backtest,Blend: naive + best model,Blend,2001,LAK,WC,0.404989,7,6,15,0.597048,1,1
+backtest,Blend: naive + best model,Blend,2001,EDM,WC,0.322588,8,9,15,0.397292,-1,1
+backtest,Blend: naive + best model,Blend,2001,PHO,WC,-0.298156,9,7,15,0.597048,2,2
+backtest,Blend: naive + best model,Blend,2001,CHI,WC,-0.317832,10,5,15,0.663633,5,5
+backtest,Blend: naive + best model,Blend,2001,CAL,WC,-0.678494,11,11,15,-0.468316,0,0
+backtest,Blend: naive + best model,Blend,2001,NAS,WC,-0.737569,12,14,15,-1.134169,-2,2
+backtest,Blend: naive + best model,Blend,2001,ANA,WC,-0.920943,13,13,15,-1.134169,0,0
+backtest,Blend: naive + best model,Blend,2001,CBS,WC,-1.094844,14,15,15,-1.933192,-1,1
+backtest,Blend: naive + best model,Blend,2001,MIN,WC,-1.236223,15,12,15,-0.867828,3,3
+backtest,Blend: naive + best model,Blend,2002,TOR,EC,1.245808,1,4,15,0.706836,-3,3
+backtest,Blend: naive + best model,Blend,2002,NJD,EC,1.016655,2,2,15,1.359299,0,0
+backtest,Blend: naive + best model,Blend,2002,OTT,EC,0.833980,3,1,15,1.685531,2,2
+backtest,Blend: naive + best model,Blend,2002,PHI,EC,0.723734,4,3,15,1.294053,1,1
+backtest,Blend: naive + best model,Blend,2002,BOS,EC,0.599603,5,7,15,-0.010874,-2,2
+backtest,Blend: naive + best model,Blend,2002,CAR,EC,0.281620,6,15,15,-1.707280,-9,9
+backtest,Blend: naive + best model,Blend,2002,WAS,EC,0.235658,7,6,15,0.315357,1,1
+backtest,Blend: naive + best model,Blend,2002,BUF,EC,0.230397,8,12,15,-0.989570,-4,4
+backtest,Blend: naive + best model,Blend,2002,NYI,EC,-0.049336,9,8,15,-0.271860,1,1
+backtest,Blend: naive + best model,Blend,2002,PIT,EC,-0.401933,10,14,15,-1.446295,-4,4
+backtest,Blend: naive + best model,Blend,2002,NYR,EC,-0.579032,11,9,15,-0.598092,2,2
+backtest,Blend: naive + best model,Blend,2002,MTL,EC,-0.618368,12,10,15,-0.663338,2,2
+backtest,Blend: naive + best model,Blend,2002,FLO,EC,-1.181135,13,13,15,-1.120063,0,0
+backtest,Blend: naive + best model,Blend,2002,TBL,EC,-1.492627,14,5,15,0.380604,9,9
+backtest,Blend: naive + best model,Blend,2002,ATL,EC,-2.733336,15,11,15,-0.859077,4,4
+backtest,Blend: naive + best model,Blend,2002,DET,WC,1.486729,1,2,15,1.489792,-1,1
+backtest,Blend: naive + best model,Blend,2002,STL,WC,1.185102,2,5,15,0.772082,-3,3
+backtest,Blend: naive + best model,Blend,2002,DAL,WC,0.842566,3,1,15,1.555039,2,2
+backtest,Blend: naive + best model,Blend,2002,COL,WC,0.778774,4,3,15,1.163560,1,1
+backtest,Blend: naive + best model,Blend,2002,CHI,WC,0.598894,5,9,15,-0.532845,-4,4
+backtest,Blend: naive + best model,Blend,2002,VAN,WC,0.527151,6,4,15,1.098314,2,2
+backtest,Blend: naive + best model,Blend,2002,LAK,WC,0.486919,7,10,15,-0.598092,-3,3
+backtest,Blend: naive + best model,Blend,2002,SJS,WC,0.478712,8,14,15,-0.924324,-6,6
+backtest,Blend: naive + best model,Blend,2002,EDM,WC,0.396330,9,8,15,0.315357,1,1
+backtest,Blend: naive + best model,Blend,2002,PHO,WC,0.385572,10,11,15,-0.598092,-1,1
+backtest,Blend: naive + best model,Blend,2002,CAL,WC,-0.697133,11,12,15,-0.793831,-1,1
+backtest,Blend: naive + best model,Blend,2002,NAS,WC,-0.921221,12,13,15,-0.859077,-1,1
+backtest,Blend: naive + best model,Blend,2002,MIN,WC,-0.940155,13,6,15,0.511097,7,7
+backtest,Blend: naive + best model,Blend,2002,ANA,WC,-1.055251,14,7,15,0.511097,7,7
+backtest,Blend: naive + best model,Blend,2002,CBS,WC,-1.664675,15,15,15,-1.185309,0,0
+backtest,Blend: naive + best model,Blend,2003,OTT,EC,1.791020,1,4,15,0.968474,-3,3
+backtest,Blend: naive + best model,Blend,2003,NJD,EC,1.659821,2,6,15,0.840764,-4,4
+backtest,Blend: naive + best model,Blend,2003,PHI,EC,1.489017,3,5,15,0.904619,-2,2
+backtest,Blend: naive + best model,Blend,2003,TOR,EC,0.325485,4,3,15,1.032330,1,1
+backtest,Blend: naive + best model,Blend,2003,TBL,EC,0.108930,5,1,15,1.223896,4,4
+backtest,Blend: naive + best model,Blend,2003,BOS,EC,0.101422,6,2,15,1.096185,4,4
+backtest,Blend: naive + best model,Blend,2003,WAS,EC,-0.032294,7,14,15,-1.777310,-7,7
+backtest,Blend: naive + best model,Blend,2003,NYI,EC,-0.294320,8,8,15,0.266064,0,0
+backtest,Blend: naive + best model,Blend,2003,BUF,EC,-0.330184,9,9,15,-0.117068,0,0
+backtest,Blend: naive + best model,Blend,2003,NYR,EC,-0.471496,10,13,15,-1.138756,-3,3
+backtest,Blend: naive + best model,Blend,2003,MTL,EC,-0.887695,11,7,15,0.393775,4,4
+backtest,Blend: naive + best model,Blend,2003,CAR,EC,-1.081322,12,11,15,-0.691767,1,1
+backtest,Blend: naive + best model,Blend,2003,ATL,EC,-1.345473,13,10,15,-0.564057,3,3
+backtest,Blend: naive + best model,Blend,2003,PIT,EC,-1.460860,14,15,15,-1.841166,-1,1
+backtest,Blend: naive + best model,Blend,2003,FLO,EC,-1.565447,15,12,15,-0.755623,3,3
+backtest,Blend: naive + best model,Blend,2003,DAL,WC,1.606688,1,5,15,0.649197,-4,4
+backtest,Blend: naive + best model,Blend,2003,COL,WC,1.329750,2,4,15,0.840764,-2,2
+backtest,Blend: naive + best model,Blend,2003,DET,WC,1.217397,3,1,15,1.415463,2,2
+backtest,Blend: naive + best model,Blend,2003,VAN,WC,0.885714,4,3,15,0.904619,1,1
+backtest,Blend: naive + best model,Blend,2003,STL,WC,0.812040,5,7,15,0.266064,-2,2
+backtest,Blend: naive + best model,Blend,2003,EDM,WC,0.452039,6,9,15,0.138353,-3,3
+backtest,Blend: naive + best model,Blend,2003,LAK,WC,0.028673,7,11,15,-0.372490,-4,4
+backtest,Blend: naive + best model,Blend,2003,PHO,WC,-0.155323,8,13,15,-1.202611,-5,5
+backtest,Blend: naive + best model,Blend,2003,SJS,WC,-0.171214,9,2,15,1.096185,7,7
+backtest,Blend: naive + best model,Blend,2003,ANA,WC,-0.178501,10,12,15,-0.691767,-2,2
+backtest,Blend: naive + best model,Blend,2003,MIN,WC,-0.315642,11,10,15,-0.244779,1,1
+backtest,Blend: naive + best model,Blend,2003,NAS,WC,-0.503250,12,8,15,0.266064,4,4
+backtest,Blend: naive + best model,Blend,2003,CHI,WC,-0.641234,13,15,15,-1.777310,-2,2
+backtest,Blend: naive + best model,Blend,2003,CAL,WC,-0.674693,14,6,15,0.457631,8,8
+backtest,Blend: naive + best model,Blend,2003,CBS,WC,-1.699046,15,14,15,-1.585744,1,1
+backtest,Blend: naive + best model,Blend,2005,OTT,EC,1.317420,1,1,15,1.309643,0,0
+backtest,Blend: naive + best model,Blend,2005,TBL,EC,1.107334,2,8,15,0.038341,-6,6
+backtest,Blend: naive + best model,Blend,2005,TOR,EC,1.067815,3,10,15,-0.082736,-7,7
+backtest,Blend: naive + best model,Blend,2005,PHI,EC,1.010051,4,5,15,0.583184,-1,1
+backtest,Blend: naive + best model,Blend,2005,NJD,EC,0.795230,5,4,15,0.583184,1,1
+backtest,Blend: naive + best model,Blend,2005,BOS,EC,0.584091,6,13,15,-1.051346,-7,7
+backtest,Blend: naive + best model,Blend,2005,NYI,EC,0.369284,7,12,15,-0.809194,-5,5
+backtest,Blend: naive + best model,Blend,2005,MTL,EC,0.365636,8,7,15,0.098879,1,1
+backtest,Blend: naive + best model,Blend,2005,BUF,EC,-0.236705,9,3,15,1.128028,6,6
+backtest,Blend: naive + best model,Blend,2005,CAR,EC,-0.552612,10,2,15,1.249104,8,8
+backtest,Blend: naive + best model,Blend,2005,NYR,EC,-0.695671,11,6,15,0.522646,5,5
+backtest,Blend: naive + best model,Blend,2005,ATL,EC,-0.723946,12,9,15,-0.082736,3,3
+backtest,Blend: naive + best model,Blend,2005,FLO,EC,-1.507520,13,11,15,-0.385426,2,2
+backtest,Blend: naive + best model,Blend,2005,WAS,EC,-1.611097,14,14,15,-1.293499,0,0
+backtest,Blend: naive + best model,Blend,2005,PIT,EC,-2.078186,15,15,15,-2.019957,0,0
+backtest,Blend: naive + best model,Blend,2005,DET,WC,1.631679,1,1,15,1.975562,0,0
+backtest,Blend: naive + best model,Blend,2005,VAN,WC,1.046974,2,9,15,0.038341,-7,7
+backtest,Blend: naive + best model,Blend,2005,COL,WC,1.036178,3,7,15,0.219955,-4,4
+backtest,Blend: naive + best model,Blend,2005,DAL,WC,0.851065,4,2,15,1.249104,2,2
+backtest,Blend: naive + best model,Blend,2005,SJS,WC,0.636452,5,5,15,0.462108,0,0
+backtest,Blend: naive + best model,Blend,2005,EDM,WC,0.366369,6,8,15,0.219955,-2,2
+backtest,Blend: naive + best model,Blend,2005,STL,WC,0.272291,7,15,15,-2.080495,-8,8
+backtest,Blend: naive + best model,Blend,2005,CAL,WC,0.034273,8,4,15,0.704261,4,4
+backtest,Blend: naive + best model,Blend,2005,LAK,WC,-0.041637,9,10,15,-0.143274,-1,1
+backtest,Blend: naive + best model,Blend,2005,NAS,WC,-0.175176,10,3,15,0.885875,7,7
+backtest,Blend: naive + best model,Blend,2005,ANA,WC,-0.417268,11,6,15,0.401570,5,5
+backtest,Blend: naive + best model,Blend,2005,MIN,WC,-0.634100,12,11,15,-0.445965,1,1
+backtest,Blend: naive + best model,Blend,2005,PHO,WC,-0.933447,13,12,15,-0.627579,1,1
+backtest,Blend: naive + best model,Blend,2005,CHI,WC,-1.202553,14,14,15,-1.596190,0,0
+backtest,Blend: naive + best model,Blend,2005,CBS,WC,-1.682223,15,13,15,-1.051346,2,2
+backtest,Blend: naive + best model,Blend,2006,OTT,EC,1.840579,1,3,15,0.844554,-2,2
+backtest,Blend: naive + best model,Blend,2006,PHI,EC,0.670218,2,15,15,-2.190884,-13,13
+backtest,Blend: naive + best model,Blend,2006,TBL,EC,0.630083,3,7,15,0.101181,-4,4
+backtest,Blend: naive + best model,Blend,2006,BUF,EC,0.501130,4,1,15,1.340135,3,3
+backtest,Blend: naive + best model,Blend,2006,CAR,EC,0.233295,5,11,15,-0.208557,-6,6
+backtest,Blend: naive + best model,Blend,2006,NJD,EC,0.222781,6,2,15,0.968449,4,4
+backtest,Blend: naive + best model,Blend,2006,TOR,EC,0.146949,7,9,15,-0.022714,-2,2
+backtest,Blend: naive + best model,Blend,2006,ATL,EC,0.129562,8,5,15,0.348972,3,3
+backtest,Blend: naive + best model,Blend,2006,MTL,EC,0.108635,9,10,15,-0.084662,-1,1
+backtest,Blend: naive + best model,Blend,2006,NYR,EC,0.071165,10,6,15,0.163129,4,4
+backtest,Blend: naive + best model,Blend,2006,NYI,EC,-0.616316,11,8,15,0.039234,3,3
+backtest,Blend: naive + best model,Blend,2006,FLO,EC,-0.694280,12,12,15,-0.332453,0,0
+backtest,Blend: naive + best model,Blend,2006,BOS,EC,-0.983571,13,13,15,-0.951930,0,0
+backtest,Blend: naive + best model,Blend,2006,WAS,EC,-1.315059,14,14,15,-1.323616,0,0
+backtest,Blend: naive + best model,Blend,2006,PIT,EC,-1.870448,15,4,15,0.844554,11,11
+backtest,Blend: naive + best model,Blend,2006,DET,WC,2.467538,1,1,15,1.340135,0,0
+backtest,Blend: naive + best model,Blend,2006,DAL,WC,1.297521,2,5,15,0.968449,-3,3
+backtest,Blend: naive + best model,Blend,2006,SJS,WC,0.923646,3,4,15,0.968449,-1,1
+backtest,Blend: naive + best model,Blend,2006,COL,WC,0.758673,4,9,15,0.225077,-5,5
+backtest,Blend: naive + best model,Blend,2006,EDM,WC,0.729017,5,12,15,-1.261668,-7,7
+backtest,Blend: naive + best model,Blend,2006,AND,WC,0.340328,6,3,15,1.154292,3,3
+backtest,Blend: naive + best model,Blend,2006,VAN,WC,0.180018,7,6,15,0.844554,1,1
+backtest,Blend: naive + best model,Blend,2006,CAL,WC,0.039069,8,8,15,0.287024,0,0
+backtest,Blend: naive + best model,Blend,2006,NAS,WC,-0.108502,9,2,15,1.154292,7,7
+backtest,Blend: naive + best model,Blend,2006,MIN,WC,-0.296289,10,7,15,0.782606,3,3
+backtest,Blend: naive + best model,Blend,2006,LAK,WC,-0.384527,11,14,15,-1.447511,-3,3
+backtest,Blend: naive + best model,Blend,2006,PHO,WC,-0.671637,12,15,15,-1.509459,-3,3
+backtest,Blend: naive + best model,Blend,2006,CHI,WC,-1.189881,13,13,15,-1.261668,0,0
+backtest,Blend: naive + best model,Blend,2006,CBS,WC,-1.576750,14,11,15,-1.137773,3,3
+backtest,Blend: naive + best model,Blend,2006,STL,WC,-1.582949,15,10,15,-0.642191,5,5
+backtest,Blend: naive + best model,Blend,2007,OTT,EC,1.227454,1,6,15,0.281191,-5,5
+backtest,Blend: naive + best model,Blend,2007,BUF,EC,1.077250,2,10,15,-0.102251,-8,8
+backtest,Blend: naive + best model,Blend,2007,TOR,EC,0.547551,3,12,15,-0.773275,-9,9
+backtest,Blend: naive + best model,Blend,2007,NJD,EC,0.516242,4,3,15,0.760493,1,1
+backtest,Blend: naive + best model,Blend,2007,NYR,EC,0.348581,5,4,15,0.568772,1,1
+backtest,Blend: naive + best model,Blend,2007,TBL,EC,0.209445,6,15,15,-1.923601,-9,9
+backtest,Blend: naive + best model,Blend,2007,PIT,EC,0.199865,7,2,15,1.048075,5,5
+backtest,Blend: naive + best model,Blend,2007,FLO,EC,0.196757,8,11,15,-0.581554,-3,3
+backtest,Blend: naive + best model,Blend,2007,ATL,EC,-0.002217,9,14,15,-1.444298,-5,5
+backtest,Blend: naive + best model,Blend,2007,CAR,EC,-0.038116,10,9,15,0.089470,1,1
+backtest,Blend: naive + best model,Blend,2007,MTL,EC,-0.336976,11,1,15,1.239796,10,10
+backtest,Blend: naive + best model,Blend,2007,NYI,EC,-0.340337,12,13,15,-1.156717,-1,1
+backtest,Blend: naive + best model,Blend,2007,BOS,EC,-1.309644,13,8,15,0.281191,5,5
+backtest,Blend: naive + best model,Blend,2007,WAS,EC,-1.354202,14,7,15,0.281191,7,7
+backtest,Blend: naive + best model,Blend,2007,PHI,EC,-1.760642,15,5,15,0.377051,10,10
+backtest,Blend: naive + best model,Blend,2007,DET,WC,1.961437,1,1,15,2.294261,0,0
+backtest,Blend: naive + best model,Blend,2007,SJS,WC,1.135672,2,2,15,1.623238,0,0
+backtest,Blend: naive + best model,Blend,2007,AND,WC,1.065200,3,3,15,1.048075,0,0
+backtest,Blend: naive + best model,Blend,2007,MIN,WC,0.886574,4,4,15,0.664633,0,0
+backtest,Blend: naive + best model,Blend,2007,DAL,WC,0.842621,5,5,15,0.568772,0,0
+backtest,Blend: naive + best model,Blend,2007,NAS,WC,0.810825,6,8,15,-0.006391,-2,2
+backtest,Blend: naive + best model,Blend,2007,COL,WC,0.737334,7,6,15,0.377051,1,1
+backtest,Blend: naive + best model,Blend,2007,VAN,WC,0.481111,8,11,15,-0.293972,-3,3
+backtest,Blend: naive + best model,Blend,2007,CAL,WC,0.188077,9,7,15,0.281191,2,2
+backtest,Blend: naive + best model,Blend,2007,LAK,WC,-0.945935,10,15,15,-1.923601,-5,5
+backtest,Blend: naive + best model,Blend,2007,STL,WC,-1.024937,11,14,15,-1.156717,-3,3
+backtest,Blend: naive + best model,Blend,2007,CBS,WC,-1.028284,12,13,15,-1.060856,-1,1
+backtest,Blend: naive + best model,Blend,2007,PHO,WC,-1.320440,13,12,15,-0.773275,1,1
+backtest,Blend: naive + best model,Blend,2007,EDM,WC,-1.321770,14,9,15,-0.293972,5,5
+backtest,Blend: naive + best model,Blend,2007,CHI,WC,-1.648495,15,10,15,-0.293972,5,5
+backtest,Blend: naive + best model,Blend,2008,NYR,EC,1.105251,1,7,15,0.260482,-6,6
+backtest,Blend: naive + best model,Blend,2008,BUF,EC,0.763288,2,10,15,-0.028942,-8,8
+backtest,Blend: naive + best model,Blend,2008,OTT,EC,0.657633,3,11,15,-0.607792,-8,8
+backtest,Blend: naive + best model,Blend,2008,NJD,EC,0.651375,4,3,15,1.056400,1,1
+backtest,Blend: naive + best model,Blend,2008,WAS,EC,0.467205,5,2,15,1.201112,3,3
+backtest,Blend: naive + best model,Blend,2008,MTL,EC,0.440679,6,9,15,0.115770,-3,3
+backtest,Blend: naive + best model,Blend,2008,CAR,EC,0.433238,7,6,15,0.405194,1,1
+backtest,Blend: naive + best model,Blend,2008,PIT,EC,0.310849,8,4,15,0.549907,4,4
+backtest,Blend: naive + best model,Blend,2008,BOS,EC,-0.393328,9,1,15,1.779961,8,8
+backtest,Blend: naive + best model,Blend,2008,TOR,EC,-0.402636,10,12,15,-0.752504,-2,2
+backtest,Blend: naive + best model,Blend,2008,PHI,EC,-0.445213,11,5,15,0.549907,6,6
+backtest,Blend: naive + best model,Blend,2008,FLO,EC,-0.843172,12,8,15,0.115770,4,4
+backtest,Blend: naive + best model,Blend,2008,NYI,EC,-0.848301,13,15,15,-2.199627,-2,2
+backtest,Blend: naive + best model,Blend,2008,TBL,EC,-1.276351,14,14,15,-1.837846,0,0
+backtest,Blend: naive + best model,Blend,2008,ATL,EC,-1.731533,15,13,15,-1.114285,2,2
+backtest,Blend: naive + best model,Blend,2008,DET,WC,2.662479,1,2,15,1.490537,-1,1
+backtest,Blend: naive + best model,Blend,2008,SJS,WC,1.658737,2,1,15,1.852318,1,1
+backtest,Blend: naive + best model,Blend,2008,NAS,WC,0.639788,3,10,15,-0.246011,-7,7
+backtest,Blend: naive + best model,Blend,2008,DAL,WC,0.614301,4,12,15,-0.607792,-8,8
+backtest,Blend: naive + best model,Blend,2008,AND,WC,0.592032,5,8,15,-0.028942,-3,3
+backtest,Blend: naive + best model,Blend,2008,COL,WC,0.491539,6,15,15,-1.620778,-9,9
+backtest,Blend: naive + best model,Blend,2008,CAL,WC,0.467145,7,5,15,0.477551,2,2
+backtest,Blend: naive + best model,Blend,2008,MIN,WC,0.306903,8,9,15,-0.173655,-1,1
+backtest,Blend: naive + best model,Blend,2008,VAN,WC,-0.195154,9,4,15,0.622263,5,5
+backtest,Blend: naive + best model,Blend,2008,CBS,WC,-0.625053,10,6,15,0.043414,4,4
+backtest,Blend: naive + best model,Blend,2008,CHI,WC,-0.712661,11,3,15,0.911688,8,8
+backtest,Blend: naive + best model,Blend,2008,PHO,WC,-0.765932,12,13,15,-0.897216,-1,1
+backtest,Blend: naive + best model,Blend,2008,EDM,WC,-1.037792,13,11,15,-0.463079,2,2
+backtest,Blend: naive + best model,Blend,2008,STL,WC,-1.221566,14,7,15,0.043414,7,7
+backtest,Blend: naive + best model,Blend,2008,LAK,WC,-1.763750,15,14,15,-0.897216,1,1
+backtest,Blend: naive + best model,Blend,2009,BOS,EC,1.201204,1,6,15,-0.079797,-5,5
+backtest,Blend: naive + best model,Blend,2009,WAS,EC,1.150834,2,1,15,2.236902,1,1
+backtest,Blend: naive + best model,Blend,2009,NJD,EC,1.043744,3,2,15,0.846882,1,1
+backtest,Blend: naive + best model,Blend,2009,PIT,EC,0.823906,4,3,15,0.692436,1,1
+backtest,Blend: naive + best model,Blend,2009,CAR,EC,0.274533,5,11,15,-0.929254,-6,6
+backtest,Blend: naive + best model,Blend,2009,BUF,EC,0.269503,6,4,15,0.615212,2,2
+backtest,Blend: naive + best model,Blend,2009,MTL,EC,0.214709,7,8,15,-0.311467,-1,1
+backtest,Blend: naive + best model,Blend,2009,PHI,EC,0.129438,8,7,15,-0.311467,1,1
+backtest,Blend: naive + best model,Blend,2009,NYR,EC,0.061363,9,9,15,-0.388691,0,0
+backtest,Blend: naive + best model,Blend,2009,OTT,EC,-0.119065,10,5,15,0.151872,5,5
+backtest,Blend: naive + best model,Blend,2009,FLO,EC,-0.690591,11,14,15,-1.160924,-3,3
+backtest,Blend: naive + best model,Blend,2009,TOR,EC,-0.731800,12,15,15,-1.392593,-3,3
+backtest,Blend: naive + best model,Blend,2009,ATL,EC,-0.866348,13,10,15,-0.697584,3,3
+backtest,Blend: naive + best model,Blend,2009,TBL,EC,-2.091974,14,12,15,-0.929254,2,2
+backtest,Blend: naive + best model,Blend,2009,NYI,EC,-2.155252,15,13,15,-1.006477,2,2
+backtest,Blend: naive + best model,Blend,2009,SJS,WC,1.862387,1,1,15,1.619115,0,0
+backtest,Blend: naive + best model,Blend,2009,DET,WC,1.732078,2,5,15,0.769659,-3,3
+backtest,Blend: naive + best model,Blend,2009,CHI,WC,1.069092,3,2,15,1.541892,1,1
+backtest,Blend: naive + best model,Blend,2009,CAL,WC,0.793138,4,9,15,-0.157021,-5,5
+backtest,Blend: naive + best model,Blend,2009,VAN,WC,0.554616,5,4,15,0.846882,1,1
+backtest,Blend: naive + best model,Blend,2009,AND,WC,0.154124,6,11,15,-0.234244,-5,5
+backtest,Blend: naive + best model,Blend,2009,NAS,WC,0.079164,7,7,15,0.615212,0,0
+backtest,Blend: naive + best model,Blend,2009,DAL,WC,-0.134628,8,12,15,-0.311467,-4,4
+backtest,Blend: naive + best model,Blend,2009,STL,WC,-0.136520,9,10,15,-0.157021,-1,1
+backtest,Blend: naive + best model,Blend,2009,MIN,WC,-0.165282,10,13,15,-0.620361,-3,3
+backtest,Blend: naive + best model,Blend,2009,CBS,WC,-0.171906,11,14,15,-1.006477,-3,3
+backtest,Blend: naive + best model,Blend,2009,EDM,WC,-0.724760,12,15,15,-2.319273,-3,3
+backtest,Blend: naive + best model,Blend,2009,LAK,WC,-0.799291,13,6,15,0.692436,7,7
+backtest,Blend: naive + best model,Blend,2009,COL,WC,-1.227309,14,8,15,0.229096,6,6
+backtest,Blend: naive + best model,Blend,2009,PHO,WC,-1.399107,15,3,15,1.155775,12,12
