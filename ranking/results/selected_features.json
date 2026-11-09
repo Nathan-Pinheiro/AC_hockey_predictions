@@ -1,0 +1,31 @@
+{
+  "selected_groups": [
+    "prev_points",
+    "shots_luck"
+  ],
+  "features": [
+    "pts_pct_z_lag1",
+    "sh_pct_lag1_z",
+    "sv_pct_lag1_z",
+    "pdo_lag1_z",
+    "shot_diff_lag1_z",
+    "shot_diff_pct_lag1_z",
+    "pdo_mean3_z",
+    "shot_diff_pct_mean3_z"
+  ],
+  "base_groups": [
+    "prev_points",
+    "history_points"
+  ],
+  "base_features": [
+    "pts_pct_z_lag1",
+    "pts_pct_z_lag2",
+    "pts_pct_z_lag3",
+    "pts_pct_z_lag4",
+    "pts_pct_z_lag5",
+    "pts_pct_z_mean3",
+    "pts_pct_z_mean5"
+  ],
+  "best_model_mae": 2.5161884411884414,
+  "persistence_baseline": 2.5842911877394634
+}
