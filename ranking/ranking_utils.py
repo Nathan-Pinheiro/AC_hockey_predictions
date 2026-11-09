@@ -160,6 +160,13 @@ def build_dataset(teams):
     df["playoffs_count5"] = by["made_playoffs"].transform(
         lambda s: s.shift(1).rolling(LAGS, min_periods=1).sum()
     )
+    df["playoff_appearances_last3y"] = by["made_playoffs"].transform(
+        lambda s: s.shift(1).rolling(3, min_periods=1).sum()
+    )
+
+    # Previous-season wins are only used as a deterministic tie-breaker for
+    # predicted rankings (never as a feature; the target is points percentage).
+    df["wins_raw_lag1"] = by["wins_raw"].shift(1)
 
     df["n_hist"] = df[pts_cols].notna().sum(axis=1)   # 0 = brand-new franchise
 
@@ -168,7 +175,8 @@ def build_dataset(teams):
     zero_fill = pts_cols + [
         "pts_pct_z_mean3", "pts_pct_z_mean5", "pts_pct_z_trend",
         "gf_z_lag1", "ga_z_lag1", "gd_z_lag1", "gd_z_mean3",
-        "made_playoffs_lag1", "playoffs_count5",
+        "made_playoffs_lag1", "playoffs_count5", "playoff_appearances_last3y",
+        "wins_raw_lag1",
     ]
     df[zero_fill] = df[zero_fill].fillna(0.0)
     half_fill = rank_cols + ["best_rank_pct_5", "worst_rank_pct_5"]
@@ -192,7 +200,8 @@ def feature_groups(df):
         "trend": ["pts_pct_z_trend"],
         "rank_history": ["rank_pct_lag1", "best_rank_pct_5", "worst_rank_pct_5"],
         "goals": ["gf_z_lag1", "ga_z_lag1", "gd_z_lag1", "gd_z_mean3"],
-        "playoffs": ["made_playoffs_lag1", "playoffs_count5"],
+        "playoffs": ["made_playoffs_lag1", "playoffs_count5",
+                     "playoff_appearances_last3y"],
         "experience": ["n_hist"],
     }
     return {name: cols for name, cols in groups.items() if cols}
@@ -233,12 +242,18 @@ def baseline_scores(df, column, eval_years):
 
 
 def rank_predictions(pred, df):
-    """Turn scores into predicted ranks inside each (year, conference)."""
-    actual = df[["year", "tmID", "conf_rank", "conf_size", "target"]]
+    """Turn scores into predicted ranks inside each (year, conference).
+
+    Ties in the predicted score are broken by the previous season's wins
+    (leak-free), then by ``tmID``.  This mirrors the historical convention
+    (points, then wins) instead of using ``tmID`` alone.
+    """
+    actual = df[["year", "tmID", "conf_rank", "conf_size", "target",
+                 "wins_raw_lag1"]]
     d = pred.merge(actual, on=["year", "tmID"], how="inner")
     d = d[d["confID"].ne("NONE")]
-    d = d.sort_values(["year", "confID", "score", "tmID"],
-                      ascending=[True, True, False, True])
+    d = d.sort_values(["year", "confID", "score", "wins_raw_lag1", "tmID"],
+                      ascending=[True, True, False, False, True])
     d["pred_rank"] = d.groupby(["year", "confID"]).cumcount() + 1
     d["err"] = d["pred_rank"] - d["conf_rank"]
     d["abs_err"] = d["err"].abs()
