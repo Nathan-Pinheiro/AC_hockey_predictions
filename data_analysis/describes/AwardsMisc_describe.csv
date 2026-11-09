@@ -1,0 +1,12 @@
+,name,ID,award,year,lgID,note
+count,120,83,120,120.0,120,15
+unique,120,83,1,,1,1
+top,1960 U.S. Olympic Hockey Team,arboual01,Patrick,,NHL,posthumous
+freq,1,1,120,,120,15
+mean,,,,1988.4416666666666,,
+std,,,,13.452559553609767,,
+min,,,,1965.0,,
+25%,,,,1976.0,,
+50%,,,,1990.0,,
+75%,,,,2000.0,,
+max,,,,2009.0,,
