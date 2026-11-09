@@ -1,0 +1,267 @@
+year,confID,n_teams,mae,rmse,spearman,top_overlap,within_2,split,model,family
+1995,EC,13,3.076923,3.658499,0.521978,0.666667,0.384615,backtest,Ensemble + external,External
+1995,WC,13,1.538462,1.921538,0.868132,0.833333,0.769231,backtest,Ensemble + external,External
+1996,EC,13,3.230769,4.296689,0.340659,0.666667,0.384615,backtest,Ensemble + external,External
+1996,WC,13,3.384615,4.019185,0.423077,0.500000,0.461538,backtest,Ensemble + external,External
+1997,EC,13,2.769231,3.882901,0.461538,0.666667,0.692308,backtest,Ensemble + external,External
+1997,WC,13,3.230769,4.057282,0.412088,0.666667,0.461538,backtest,Ensemble + external,External
+1998,EC,14,2.857143,4.259443,0.441758,0.714286,0.642857,backtest,Ensemble + external,External
+1998,WC,13,2.461538,3.012793,0.675824,0.833333,0.615385,backtest,Ensemble + external,External
+1999,EC,15,3.066667,3.915780,0.589286,0.714286,0.600000,backtest,Ensemble + external,External
+1999,WC,13,2.000000,2.511512,0.774725,0.833333,0.846154,backtest,Ensemble + external,External
+2000,EC,15,1.466667,1.861899,0.907143,0.857143,0.800000,backtest,Ensemble + external,External
+2000,WC,15,3.066667,3.687818,0.635714,0.857143,0.333333,backtest,Ensemble + external,External
+2001,EC,15,3.200000,4.082483,0.553571,0.571429,0.533333,backtest,Ensemble + external,External
+2001,WC,15,2.133333,2.756810,0.796429,0.571429,0.600000,backtest,Ensemble + external,External
+2002,EC,15,2.800000,3.759433,0.621429,0.714286,0.733333,backtest,Ensemble + external,External
+2002,WC,15,3.200000,4.381780,0.485714,0.571429,0.533333,backtest,Ensemble + external,External
+2003,EC,15,2.800000,3.224903,0.721429,0.857143,0.333333,backtest,Ensemble + external,External
+2003,WC,15,3.066667,3.502380,0.671429,0.857143,0.400000,backtest,Ensemble + external,External
+2005,EC,15,3.466667,4.516636,0.453571,0.571429,0.400000,backtest,Ensemble + external,External
+2005,WC,15,2.800000,3.705851,0.632143,0.571429,0.600000,backtest,Ensemble + external,External
+2006,EC,15,3.333333,4.926121,0.350000,0.714286,0.466667,backtest,Ensemble + external,External
+2006,WC,15,3.066667,4.147288,0.539286,0.714286,0.400000,backtest,Ensemble + external,External
+2007,EC,15,5.466667,6.335087,-0.075000,0.428571,0.266667,backtest,Ensemble + external,External
+2007,WC,15,2.133333,2.780887,0.792857,0.857143,0.600000,backtest,Ensemble + external,External
+2008,EC,15,4.133333,4.774935,0.389286,0.571429,0.266667,backtest,Ensemble + external,External
+2008,WC,15,3.866667,4.676181,0.414286,0.428571,0.400000,backtest,Ensemble + external,External
+2009,EC,15,2.266667,2.683282,0.807143,0.714286,0.666667,backtest,Ensemble + external,External
+2009,WC,15,3.466667,4.604346,0.432143,0.714286,0.466667,backtest,Ensemble + external,External
+1995,EC,13,3.230769,3.782551,0.489011,0.666667,0.384615,backtest,Gradient boosting + external,External
+1995,WC,13,1.538462,1.664101,0.901099,0.833333,0.923077,backtest,Gradient boosting + external,External
+1996,EC,13,3.538462,4.540417,0.263736,0.666667,0.461538,backtest,Gradient boosting + external,External
+1996,WC,13,3.384615,4.150996,0.384615,0.500000,0.384615,backtest,Gradient boosting + external,External
+1997,EC,13,3.230769,4.367714,0.318681,0.500000,0.461538,backtest,Gradient boosting + external,External
+1997,WC,13,3.384615,4.095025,0.401099,0.666667,0.461538,backtest,Gradient boosting + external,External
+1998,EC,14,3.000000,4.598136,0.349451,0.714286,0.642857,backtest,Gradient boosting + external,External
+1998,WC,13,2.307692,3.038218,0.670330,0.833333,0.615385,backtest,Gradient boosting + external,External
+1999,EC,15,3.200000,3.881580,0.596429,0.714286,0.400000,backtest,Gradient boosting + external,External
+1999,WC,13,2.153846,2.480695,0.780220,0.666667,0.692308,backtest,Gradient boosting + external,External
+2000,EC,15,1.466667,2.033060,0.889286,0.857143,0.800000,backtest,Gradient boosting + external,External
+2000,WC,15,3.200000,4.049691,0.560714,0.857143,0.400000,backtest,Gradient boosting + external,External
+2001,EC,15,3.200000,4.082483,0.553571,0.571429,0.533333,backtest,Gradient boosting + external,External
+2001,WC,15,2.266667,2.921187,0.771429,0.714286,0.666667,backtest,Gradient boosting + external,External
+2002,EC,15,2.666667,3.932768,0.585714,0.714286,0.666667,backtest,Gradient boosting + external,External
+2002,WC,15,3.200000,4.546061,0.446429,0.714286,0.533333,backtest,Gradient boosting + external,External
+2003,EC,15,2.933333,3.265986,0.714286,0.857143,0.266667,backtest,Gradient boosting + external,External
+2003,WC,15,2.933333,3.794733,0.614286,0.857143,0.600000,backtest,Gradient boosting + external,External
+2005,EC,15,3.866667,4.830459,0.375000,0.571429,0.333333,backtest,Gradient boosting + external,External
+2005,WC,15,2.933333,3.596294,0.653571,0.714286,0.466667,backtest,Gradient boosting + external,External
+2006,EC,15,3.066667,4.647580,0.421429,0.714286,0.600000,backtest,Gradient boosting + external,External
+2006,WC,15,3.333333,4.531372,0.450000,0.714286,0.466667,backtest,Gradient boosting + external,External
+2007,EC,15,5.600000,6.250333,-0.046429,0.428571,0.200000,backtest,Gradient boosting + external,External
+2007,WC,15,2.533333,3.141125,0.735714,0.857143,0.533333,backtest,Gradient boosting + external,External
+2008,EC,15,4.000000,4.589844,0.435714,0.571429,0.400000,backtest,Gradient boosting + external,External
+2008,WC,15,3.600000,4.560702,0.442857,0.428571,0.333333,backtest,Gradient boosting + external,External
+2009,EC,15,2.400000,2.828427,0.785714,0.714286,0.666667,backtest,Gradient boosting + external,External
+2009,WC,15,3.733333,4.676181,0.414286,0.571429,0.400000,backtest,Gradient boosting + external,External
+1995,EC,13,2.461538,3.012793,0.675824,0.500000,0.538462,backtest,Naive: previous available ranking,Naive
+1995,WC,13,2.000000,2.385856,0.796703,1.000000,0.692308,backtest,Naive: previous available ranking,Naive
+1996,EC,13,3.230769,4.402796,0.307692,0.666667,0.538462,backtest,Naive: previous available ranking,Naive
+1996,WC,13,3.230769,4.038278,0.417582,0.500000,0.461538,backtest,Naive: previous available ranking,Naive
+1997,EC,13,3.076923,4.242641,0.357143,0.666667,0.538462,backtest,Naive: previous available ranking,Naive
+1997,WC,13,2.923077,3.741657,0.500000,0.833333,0.538462,backtest,Naive: previous available ranking,Naive
+1998,EC,14,3.000000,4.105745,0.481319,0.714286,0.500000,backtest,Naive: previous available ranking,Naive
+1998,WC,13,2.307692,3.210560,0.631868,0.666667,0.692308,backtest,Naive: previous available ranking,Naive
+1999,EC,15,2.933333,4.066120,0.557143,0.714286,0.600000,backtest,Naive: previous available ranking,Naive
+1999,WC,13,2.307692,2.717465,0.736264,0.833333,0.615385,backtest,Naive: previous available ranking,Naive
+2000,EC,15,2.400000,2.898275,0.775000,0.857143,0.666667,backtest,Naive: previous available ranking,Naive
+2000,WC,15,2.666667,3.055050,0.750000,0.857143,0.333333,backtest,Naive: previous available ranking,Naive
+2001,EC,15,3.866667,4.788876,0.385714,0.571429,0.400000,backtest,Naive: previous available ranking,Naive
+2001,WC,15,2.400000,3.306559,0.707143,0.714286,0.666667,backtest,Naive: previous available ranking,Naive
+2002,EC,15,3.466667,4.163332,0.535714,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
+2002,WC,15,3.600000,4.788876,0.385714,0.428571,0.466667,backtest,Naive: previous available ranking,Naive
+2003,EC,15,2.933333,3.540245,0.664286,0.857143,0.400000,backtest,Naive: previous available ranking,Naive
+2003,WC,15,3.466667,4.589844,0.435714,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
+2005,EC,15,3.866667,5.266245,0.257143,0.571429,0.466667,backtest,Naive: previous available ranking,Naive
+2005,WC,15,2.666667,3.405877,0.689286,0.857143,0.533333,backtest,Naive: previous available ranking,Naive
+2006,EC,15,3.333333,4.885352,0.360714,0.571429,0.600000,backtest,Naive: previous available ranking,Naive
+2006,WC,15,2.666667,3.011091,0.757143,0.714286,0.400000,backtest,Naive: previous available ranking,Naive
+2007,EC,15,5.066667,5.988879,0.039286,0.571429,0.333333,backtest,Naive: previous available ranking,Naive
+2007,WC,15,2.533333,2.943920,0.767857,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
+2008,EC,15,2.533333,3.444803,0.682143,0.714286,0.533333,backtest,Naive: previous available ranking,Naive
+2008,WC,15,4.133333,5.006662,0.328571,0.428571,0.466667,backtest,Naive: previous available ranking,Naive
+2009,EC,15,3.200000,3.687818,0.635714,0.714286,0.466667,backtest,Naive: previous available ranking,Naive
+2009,WC,15,3.866667,4.953113,0.342857,0.571429,0.266667,backtest,Naive: previous available ranking,Naive
+1995,EC,13,4.461538,5.602197,-0.120879,0.500000,0.384615,backtest,Naive: random,Naive
+1995,WC,13,3.538462,4.657500,0.225275,0.666667,0.538462,backtest,Naive: random,Naive
+1996,EC,13,3.384615,3.902662,0.456044,0.666667,0.230769,backtest,Naive: random,Naive
+1996,WC,13,4.153846,5.038315,0.093407,0.500000,0.230769,backtest,Naive: random,Naive
+1997,EC,13,5.692308,6.300183,-0.417582,0.333333,0.153846,backtest,Naive: random,Naive
+1997,WC,13,4.769231,5.262348,0.010989,0.333333,0.153846,backtest,Naive: random,Naive
+1998,EC,14,5.571429,6.222080,-0.191209,0.285714,0.142857,backtest,Naive: random,Naive
+1998,WC,13,5.538462,6.287962,-0.412088,0.166667,0.153846,backtest,Naive: random,Naive
+1999,EC,15,5.866667,6.772493,-0.228571,0.428571,0.133333,backtest,Naive: random,Naive
+1999,WC,13,3.538462,4.690416,0.214286,0.666667,0.461538,backtest,Naive: random,Naive
+2000,EC,15,5.066667,5.899152,0.067857,0.571429,0.200000,backtest,Naive: random,Naive
+2000,WC,15,4.533333,5.887841,0.071429,0.428571,0.333333,backtest,Naive: random,Naive
+2001,EC,15,4.666667,6.164414,-0.017857,0.428571,0.333333,backtest,Naive: random,Naive
+2001,WC,15,4.666667,5.819507,0.092857,0.571429,0.266667,backtest,Naive: random,Naive
+2002,EC,15,4.133333,5.253570,0.260714,0.428571,0.333333,backtest,Naive: random,Naive
+2002,WC,15,6.000000,7.071068,-0.339286,0.285714,0.200000,backtest,Naive: random,Naive
+2003,EC,15,4.266667,5.354126,0.232143,0.571429,0.333333,backtest,Naive: random,Naive
+2003,WC,15,6.400000,7.127412,-0.360714,0.285714,0.200000,backtest,Naive: random,Naive
+2005,EC,15,5.733333,7.071068,-0.339286,0.285714,0.400000,backtest,Naive: random,Naive
+2005,WC,15,5.733333,6.356099,-0.082143,0.428571,0.133333,backtest,Naive: random,Naive
+2006,EC,15,4.933333,6.260990,-0.050000,0.428571,0.333333,backtest,Naive: random,Naive
+2006,WC,15,6.400000,7.580677,-0.539286,0.285714,0.133333,backtest,Naive: random,Naive
+2007,EC,15,5.466667,6.142746,-0.010714,0.285714,0.200000,backtest,Naive: random,Naive
+2007,WC,15,5.466667,6.377042,-0.089286,0.285714,0.333333,backtest,Naive: random,Naive
+2008,EC,15,5.066667,6.077280,0.010714,0.571429,0.333333,backtest,Naive: random,Naive
+2008,WC,15,6.400000,7.357536,-0.450000,0.285714,0.200000,backtest,Naive: random,Naive
+2009,EC,15,4.000000,4.898979,0.357143,0.571429,0.333333,backtest,Naive: random,Naive
+2009,WC,15,5.866667,7.118052,-0.357143,0.428571,0.266667,backtest,Naive: random,Naive
+1995,EC,13,2.615385,3.162278,0.642857,0.666667,0.461538,backtest,Pairwise boosting,Pairwise
+1995,WC,13,2.000000,2.385856,0.796703,1.000000,0.538462,backtest,Pairwise boosting,Pairwise
+1996,EC,13,3.230769,4.296689,0.340659,0.666667,0.461538,backtest,Pairwise boosting,Pairwise
+1996,WC,13,3.384615,4.132423,0.390110,0.500000,0.461538,backtest,Pairwise boosting,Pairwise
+1997,EC,13,3.538462,4.489304,0.280220,0.666667,0.461538,backtest,Pairwise boosting,Pairwise
+1997,WC,13,2.769231,3.508232,0.560440,0.666667,0.538462,backtest,Pairwise boosting,Pairwise
+1998,EC,14,3.000000,4.276180,0.437363,0.714286,0.642857,backtest,Pairwise boosting,Pairwise
+1998,WC,13,2.153846,2.828427,0.714286,0.833333,0.615385,backtest,Pairwise boosting,Pairwise
+1999,EC,15,3.200000,4.273952,0.510714,0.714286,0.533333,backtest,Pairwise boosting,Pairwise
+1999,WC,13,1.846154,2.253203,0.818681,0.833333,0.692308,backtest,Pairwise boosting,Pairwise
+2000,EC,15,1.866667,2.366432,0.850000,0.857143,0.733333,backtest,Pairwise boosting,Pairwise
+2000,WC,15,2.800000,3.076795,0.746429,0.857143,0.466667,backtest,Pairwise boosting,Pairwise
+2001,EC,15,3.333333,4.258325,0.514286,0.571429,0.400000,backtest,Pairwise boosting,Pairwise
+2001,WC,15,2.133333,3.286335,0.710714,0.714286,0.666667,backtest,Pairwise boosting,Pairwise
+2002,EC,15,2.666667,3.687818,0.635714,0.857143,0.666667,backtest,Pairwise boosting,Pairwise
+2002,WC,15,3.066667,4.082483,0.553571,0.571429,0.533333,backtest,Pairwise boosting,Pairwise
+2003,EC,15,3.066667,3.777124,0.617857,0.857143,0.533333,backtest,Pairwise boosting,Pairwise
+2003,WC,15,3.200000,4.163332,0.535714,0.714286,0.466667,backtest,Pairwise boosting,Pairwise
+2005,EC,15,3.466667,4.830459,0.375000,0.428571,0.533333,backtest,Pairwise boosting,Pairwise
+2005,WC,15,2.933333,4.016632,0.567857,0.571429,0.600000,backtest,Pairwise boosting,Pairwise
+2006,EC,15,3.733333,5.266245,0.257143,0.571429,0.600000,backtest,Pairwise boosting,Pairwise
+2006,WC,15,2.533333,2.921187,0.771429,0.714286,0.466667,backtest,Pairwise boosting,Pairwise
+2007,EC,15,5.066667,6.196773,-0.028571,0.571429,0.400000,backtest,Pairwise boosting,Pairwise
+2007,WC,15,2.533333,3.033150,0.753571,0.714286,0.533333,backtest,Pairwise boosting,Pairwise
+2008,EC,15,3.333333,4.258325,0.514286,0.571429,0.466667,backtest,Pairwise boosting,Pairwise
+2008,WC,15,4.000000,4.871687,0.364286,0.428571,0.400000,backtest,Pairwise boosting,Pairwise
+2009,EC,15,2.800000,3.224903,0.721429,0.714286,0.466667,backtest,Pairwise boosting,Pairwise
+2009,WC,15,4.133333,4.979960,0.335714,0.571429,0.400000,backtest,Pairwise boosting,Pairwise
+1995,EC,13,2.461538,3.113247,0.653846,0.666667,0.692308,backtest,Pairwise logistic,Pairwise
+1995,WC,13,2.153846,2.541956,0.769231,0.833333,0.615385,backtest,Pairwise logistic,Pairwise
+1996,EC,13,2.923077,4.242641,0.357143,0.666667,0.538462,backtest,Pairwise logistic,Pairwise
+1996,WC,13,3.384615,4.038278,0.417582,0.500000,0.461538,backtest,Pairwise logistic,Pairwise
+1997,EC,13,3.692308,4.624350,0.236264,0.666667,0.461538,backtest,Pairwise logistic,Pairwise
+1997,WC,13,2.769231,3.573406,0.543956,0.666667,0.538462,backtest,Pairwise logistic,Pairwise
+1998,EC,14,2.857143,4.053217,0.494505,0.714286,0.642857,backtest,Pairwise logistic,Pairwise
+1998,WC,13,2.000000,2.745626,0.730769,0.833333,0.615385,backtest,Pairwise logistic,Pairwise
+1999,EC,15,3.200000,4.258325,0.514286,0.714286,0.466667,backtest,Pairwise logistic,Pairwise
+1999,WC,13,1.846154,2.253203,0.818681,0.833333,0.692308,backtest,Pairwise logistic,Pairwise
+2000,EC,15,1.866667,2.366432,0.850000,0.857143,0.733333,backtest,Pairwise logistic,Pairwise
+2000,WC,15,2.800000,3.055050,0.750000,0.857143,0.533333,backtest,Pairwise logistic,Pairwise
+2001,EC,15,3.333333,4.163332,0.535714,0.571429,0.400000,backtest,Pairwise logistic,Pairwise
+2001,WC,15,2.133333,3.098387,0.742857,0.714286,0.733333,backtest,Pairwise logistic,Pairwise
+2002,EC,15,2.666667,3.687818,0.635714,0.857143,0.666667,backtest,Pairwise logistic,Pairwise
+2002,WC,15,3.066667,4.195235,0.528571,0.714286,0.666667,backtest,Pairwise logistic,Pairwise
+2003,EC,15,2.933333,3.705851,0.632143,0.857143,0.466667,backtest,Pairwise logistic,Pairwise
+2003,WC,15,3.200000,4.147288,0.539286,0.714286,0.466667,backtest,Pairwise logistic,Pairwise
+2005,EC,15,3.333333,4.788876,0.385714,0.428571,0.533333,backtest,Pairwise logistic,Pairwise
+2005,WC,15,2.933333,4.049691,0.560714,0.571429,0.600000,backtest,Pairwise logistic,Pairwise
+2006,EC,15,3.866667,5.391351,0.221429,0.571429,0.533333,backtest,Pairwise logistic,Pairwise
+2006,WC,15,2.666667,3.076795,0.746429,0.714286,0.466667,backtest,Pairwise logistic,Pairwise
+2007,EC,15,4.933333,6.142746,-0.010714,0.571429,0.400000,backtest,Pairwise logistic,Pairwise
+2007,WC,15,2.533333,3.011091,0.757143,0.714286,0.600000,backtest,Pairwise logistic,Pairwise
+2008,EC,15,3.333333,4.211096,0.525000,0.571429,0.466667,backtest,Pairwise logistic,Pairwise
+2008,WC,15,4.133333,4.939636,0.346429,0.428571,0.400000,backtest,Pairwise logistic,Pairwise
+2009,EC,15,2.800000,3.386247,0.692857,0.714286,0.466667,backtest,Pairwise logistic,Pairwise
+2009,WC,15,4.000000,4.926121,0.350000,0.571429,0.400000,backtest,Pairwise logistic,Pairwise
+1995,EC,13,2.461538,2.987152,0.681319,0.666667,0.461538,backtest,Ridge + external,External
+1995,WC,13,1.384615,1.754116,0.890110,0.833333,0.769231,backtest,Ridge + external,External
+1996,EC,13,3.076923,4.150996,0.384615,0.666667,0.461538,backtest,Ridge + external,External
+1996,WC,13,3.230769,3.902662,0.456044,0.500000,0.461538,backtest,Ridge + external,External
+1997,EC,13,2.923077,3.679465,0.516484,0.666667,0.615385,backtest,Ridge + external,External
+1997,WC,13,2.923077,3.616203,0.532967,0.833333,0.384615,backtest,Ridge + external,External
+1998,EC,14,3.142857,4.375255,0.410989,0.714286,0.642857,backtest,Ridge + external,External
+1998,WC,13,2.153846,2.745626,0.730769,0.833333,0.769231,backtest,Ridge + external,External
+1999,EC,15,2.933333,3.847077,0.603571,0.714286,0.666667,backtest,Ridge + external,External
+1999,WC,13,1.692308,2.075498,0.846154,0.833333,0.923077,backtest,Ridge + external,External
+2000,EC,15,1.333333,1.712698,0.921429,1.000000,0.800000,backtest,Ridge + external,External
+2000,WC,15,2.800000,3.326660,0.703571,0.857143,0.333333,backtest,Ridge + external,External
+2001,EC,15,3.333333,4.366539,0.489286,0.571429,0.466667,backtest,Ridge + external,External
+2001,WC,15,2.000000,2.556039,0.825000,0.714286,0.600000,backtest,Ridge + external,External
+2002,EC,15,3.066667,4.082483,0.553571,0.714286,0.600000,backtest,Ridge + external,External
+2002,WC,15,2.666667,3.483293,0.675000,0.714286,0.600000,backtest,Ridge + external,External
+2003,EC,15,2.800000,3.265986,0.714286,0.857143,0.400000,backtest,Ridge + external,External
+2003,WC,15,3.066667,3.614784,0.650000,0.714286,0.533333,backtest,Ridge + external,External
+2005,EC,15,3.466667,4.472136,0.464286,0.428571,0.466667,backtest,Ridge + external,External
+2005,WC,15,2.933333,3.949684,0.582143,0.571429,0.600000,backtest,Ridge + external,External
+2006,EC,15,3.600000,5.112077,0.300000,0.571429,0.400000,backtest,Ridge + external,External
+2006,WC,15,2.933333,3.669696,0.639286,0.714286,0.333333,backtest,Ridge + external,External
+2007,EC,15,5.466667,6.314006,-0.067857,0.428571,0.266667,backtest,Ridge + external,External
+2007,WC,15,1.866667,2.607681,0.817857,0.857143,0.733333,backtest,Ridge + external,External
+2008,EC,15,4.000000,4.885352,0.360714,0.571429,0.333333,backtest,Ridge + external,External
+2008,WC,15,4.000000,4.966555,0.339286,0.428571,0.466667,backtest,Ridge + external,External
+2009,EC,15,2.266667,2.804758,0.789286,0.714286,0.666667,backtest,Ridge + external,External
+2009,WC,15,3.600000,4.718757,0.403571,0.714286,0.333333,backtest,Ridge + external,External
+2005,EC,15,3.466667,4.516636,0.453571,0.571429,0.400000,clean,Ensemble + external,External
+2005,WC,15,2.800000,3.705851,0.632143,0.571429,0.600000,clean,Ensemble + external,External
+2006,EC,15,3.333333,4.926121,0.350000,0.714286,0.466667,clean,Ensemble + external,External
+2006,WC,15,3.066667,4.147288,0.539286,0.714286,0.400000,clean,Ensemble + external,External
+2007,EC,15,5.466667,6.335087,-0.075000,0.428571,0.266667,clean,Ensemble + external,External
+2007,WC,15,2.133333,2.780887,0.792857,0.857143,0.600000,clean,Ensemble + external,External
+2008,EC,15,4.133333,4.774935,0.389286,0.571429,0.266667,clean,Ensemble + external,External
+2008,WC,15,3.866667,4.676181,0.414286,0.428571,0.400000,clean,Ensemble + external,External
+2009,EC,15,2.266667,2.683282,0.807143,0.714286,0.666667,clean,Ensemble + external,External
+2009,WC,15,3.466667,4.604346,0.432143,0.714286,0.466667,clean,Ensemble + external,External
+2005,EC,15,3.866667,4.830459,0.375000,0.571429,0.333333,clean,Gradient boosting + external,External
+2005,WC,15,2.933333,3.596294,0.653571,0.714286,0.466667,clean,Gradient boosting + external,External
+2006,EC,15,3.066667,4.647580,0.421429,0.714286,0.600000,clean,Gradient boosting + external,External
+2006,WC,15,3.333333,4.531372,0.450000,0.714286,0.466667,clean,Gradient boosting + external,External
+2007,EC,15,5.600000,6.250333,-0.046429,0.428571,0.200000,clean,Gradient boosting + external,External
+2007,WC,15,2.533333,3.141125,0.735714,0.857143,0.533333,clean,Gradient boosting + external,External
+2008,EC,15,4.000000,4.589844,0.435714,0.571429,0.400000,clean,Gradient boosting + external,External
+2008,WC,15,3.600000,4.560702,0.442857,0.428571,0.333333,clean,Gradient boosting + external,External
+2009,EC,15,2.400000,2.828427,0.785714,0.714286,0.666667,clean,Gradient boosting + external,External
+2009,WC,15,3.733333,4.676181,0.414286,0.571429,0.400000,clean,Gradient boosting + external,External
+2005,EC,15,3.866667,5.266245,0.257143,0.571429,0.466667,clean,Naive: previous available ranking,Naive
+2005,WC,15,2.666667,3.405877,0.689286,0.857143,0.533333,clean,Naive: previous available ranking,Naive
+2006,EC,15,3.333333,4.885352,0.360714,0.571429,0.600000,clean,Naive: previous available ranking,Naive
+2006,WC,15,2.666667,3.011091,0.757143,0.714286,0.400000,clean,Naive: previous available ranking,Naive
+2007,EC,15,5.066667,5.988879,0.039286,0.571429,0.333333,clean,Naive: previous available ranking,Naive
+2007,WC,15,2.533333,2.943920,0.767857,0.714286,0.466667,clean,Naive: previous available ranking,Naive
+2008,EC,15,2.533333,3.444803,0.682143,0.714286,0.533333,clean,Naive: previous available ranking,Naive
+2008,WC,15,4.133333,5.006662,0.328571,0.428571,0.466667,clean,Naive: previous available ranking,Naive
+2009,EC,15,3.200000,3.687818,0.635714,0.714286,0.466667,clean,Naive: previous available ranking,Naive
+2009,WC,15,3.866667,4.953113,0.342857,0.571429,0.266667,clean,Naive: previous available ranking,Naive
+2005,EC,15,5.866667,7.014271,-0.317857,0.428571,0.333333,clean,Naive: random,Naive
+2005,WC,15,5.866667,7.146095,-0.367857,0.285714,0.266667,clean,Naive: random,Naive
+2006,EC,15,5.200000,5.988879,0.039286,0.428571,0.266667,clean,Naive: random,Naive
+2006,WC,15,3.866667,5.561774,0.171429,0.714286,0.600000,clean,Naive: random,Naive
+2007,EC,15,4.533333,5.865151,0.078571,0.571429,0.333333,clean,Naive: random,Naive
+2007,WC,15,4.666667,5.715476,0.125000,0.571429,0.400000,clean,Naive: random,Naive
+2008,EC,15,5.466667,6.449806,-0.114286,0.428571,0.200000,clean,Naive: random,Naive
+2008,WC,15,5.866667,6.772493,-0.228571,0.428571,0.133333,clean,Naive: random,Naive
+2009,EC,15,3.733333,4.844241,0.371429,0.857143,0.533333,clean,Naive: random,Naive
+2009,WC,15,4.400000,5.703800,0.128571,0.714286,0.466667,clean,Naive: random,Naive
+2005,EC,15,3.466667,4.830459,0.375000,0.428571,0.533333,clean,Pairwise boosting,Pairwise
+2005,WC,15,2.933333,4.016632,0.567857,0.571429,0.600000,clean,Pairwise boosting,Pairwise
+2006,EC,15,3.733333,5.266245,0.257143,0.571429,0.600000,clean,Pairwise boosting,Pairwise
+2006,WC,15,2.533333,2.921187,0.771429,0.714286,0.466667,clean,Pairwise boosting,Pairwise
+2007,EC,15,5.066667,6.196773,-0.028571,0.571429,0.400000,clean,Pairwise boosting,Pairwise
+2007,WC,15,2.533333,3.033150,0.753571,0.714286,0.533333,clean,Pairwise boosting,Pairwise
+2008,EC,15,3.333333,4.258325,0.514286,0.571429,0.466667,clean,Pairwise boosting,Pairwise
+2008,WC,15,4.000000,4.871687,0.364286,0.428571,0.400000,clean,Pairwise boosting,Pairwise
+2009,EC,15,2.800000,3.224903,0.721429,0.714286,0.466667,clean,Pairwise boosting,Pairwise
+2009,WC,15,4.133333,4.979960,0.335714,0.571429,0.400000,clean,Pairwise boosting,Pairwise
+2005,EC,15,3.333333,4.788876,0.385714,0.428571,0.533333,clean,Pairwise logistic,Pairwise
+2005,WC,15,2.933333,4.049691,0.560714,0.571429,0.600000,clean,Pairwise logistic,Pairwise
+2006,EC,15,3.866667,5.391351,0.221429,0.571429,0.533333,clean,Pairwise logistic,Pairwise
+2006,WC,15,2.666667,3.076795,0.746429,0.714286,0.466667,clean,Pairwise logistic,Pairwise
+2007,EC,15,4.933333,6.142746,-0.010714,0.571429,0.400000,clean,Pairwise logistic,Pairwise
+2007,WC,15,2.533333,3.011091,0.757143,0.714286,0.600000,clean,Pairwise logistic,Pairwise
+2008,EC,15,3.333333,4.211096,0.525000,0.571429,0.466667,clean,Pairwise logistic,Pairwise
+2008,WC,15,4.133333,4.939636,0.346429,0.428571,0.400000,clean,Pairwise logistic,Pairwise
+2009,EC,15,2.800000,3.386247,0.692857,0.714286,0.466667,clean,Pairwise logistic,Pairwise
+2009,WC,15,4.000000,4.926121,0.350000,0.571429,0.400000,clean,Pairwise logistic,Pairwise
+2005,EC,15,3.466667,4.472136,0.464286,0.428571,0.466667,clean,Ridge + external,External
+2005,WC,15,2.933333,3.949684,0.582143,0.571429,0.600000,clean,Ridge + external,External
+2006,EC,15,3.600000,5.112077,0.300000,0.571429,0.400000,clean,Ridge + external,External
+2006,WC,15,2.933333,3.669696,0.639286,0.714286,0.333333,clean,Ridge + external,External
+2007,EC,15,5.466667,6.314006,-0.067857,0.428571,0.266667,clean,Ridge + external,External
+2007,WC,15,1.866667,2.607681,0.817857,0.857143,0.733333,clean,Ridge + external,External
+2008,EC,15,4.000000,4.885352,0.360714,0.571429,0.333333,clean,Ridge + external,External
+2008,WC,15,4.000000,4.966555,0.339286,0.428571,0.466667,clean,Ridge + external,External
+2009,EC,15,2.266667,2.804758,0.789286,0.714286,0.666667,clean,Ridge + external,External
+2009,WC,15,3.600000,4.718757,0.403571,0.714286,0.333333,clean,Ridge + external,External

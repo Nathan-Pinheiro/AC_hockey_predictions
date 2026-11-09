@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-09T12:24:17+00:00",
+  "python": "3.11.9",
+  "splits": {
+    "clean": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "backtest": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ]
+  },
+  "selected_groups": [
+    "prev_points",
+    "shots_luck",
+    "experience"
+  ],
+  "base_features": [
+    "pts_pct_z_lag1",
+    "pts_pct_z_lag2",
+    "pts_pct_z_lag3",
+    "pts_pct_z_lag4",
+    "pts_pct_z_lag5",
+    "pts_pct_z_mean3",
+    "pts_pct_z_mean5"
+  ],
+  "external_features": [
+    "pts_pct_z_lag1",
+    "sh_pct_lag1_z",
+    "sv_pct_lag1_z",
+    "pdo_lag1_z",
+    "shot_diff_lag1_z",
+    "shot_diff_pct_lag1_z",
+    "pdo_mean3_z",
+    "shot_diff_pct_mean3_z",
+    "n_hist"
+  ],
+  "naive": {
+    "Naive: random": "Random scores, fixed seed (no skill, floor).",
+    "Naive: previous available ranking": "Last available season's points percentage, re-ranked in the current conference; league average when the team has no history."
+  },
+  "models": {
+    "Ridge + external": {
+      "family": "External",
+      "data": "external",
+      "n_features": 9,
+      "features": [
+        "pts_pct_z_lag1",
+        "sh_pct_lag1_z",
+        "sv_pct_lag1_z",
+        "pdo_lag1_z",
+        "shot_diff_lag1_z",
+        "shot_diff_pct_lag1_z",
+        "pdo_mean3_z",
+        "shot_diff_pct_mean3_z",
+        "n_hist"
+      ]
+    },
+    "Gradient boosting + external": {
+      "family": "External",
+      "data": "external",
+      "n_features": 9,
+      "features": [
+        "pts_pct_z_lag1",
+        "sh_pct_lag1_z",
+        "sv_pct_lag1_z",
+        "pdo_lag1_z",
+        "shot_diff_lag1_z",
+        "shot_diff_pct_lag1_z",
+        "pdo_mean3_z",
+        "shot_diff_pct_mean3_z",
+        "n_hist"
+      ]
+    },
+    "Ensemble + external": {
+      "family": "External",
+      "data": "external",
+      "n_features": 9,
+      "features": [
+        "pts_pct_z_lag1",
+        "sh_pct_lag1_z",
+        "sv_pct_lag1_z",
+        "pdo_lag1_z",
+        "shot_diff_lag1_z",
+        "shot_diff_pct_lag1_z",
+        "pdo_mean3_z",
+        "shot_diff_pct_mean3_z",
+        "n_hist"
+      ]
+    },
+    "Pairwise logistic": {
+      "family": "Pairwise",
+      "data": "base",
+      "n_features": 7,
+      "features": [
+        "pts_pct_z_lag1",
+        "pts_pct_z_lag2",
+        "pts_pct_z_lag3",
+        "pts_pct_z_lag4",
+        "pts_pct_z_lag5",
+        "pts_pct_z_mean3",
+        "pts_pct_z_mean5"
+      ]
+    },
+    "Pairwise boosting": {
+      "family": "Pairwise",
+      "data": "base",
+      "n_features": 7,
+      "features": [
+        "pts_pct_z_lag1",
+        "pts_pct_z_lag2",
+        "pts_pct_z_lag3",
+        "pts_pct_z_lag4",
+        "pts_pct_z_lag5",
+        "pts_pct_z_mean3",
+        "pts_pct_z_mean5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "selected_groups": [
+    "prev_points",
+    "shots_luck",
+    "experience"
+  ],
+  "features": [
+    "pts_pct_z_lag1",
+    "sh_pct_lag1_z",
+    "sv_pct_lag1_z",
+    "pdo_lag1_z",
+    "shot_diff_lag1_z",
+    "shot_diff_pct_lag1_z",
+    "pdo_mean3_z",
+    "shot_diff_pct_mean3_z",
+    "n_hist"
+  ],
+  "base_groups": [
+    "prev_points",
+    "history_points"
+  ],
+  "base_features": [
+    "pts_pct_z_lag1",
+    "pts_pct_z_lag2",
+    "pts_pct_z_lag3",
+    "pts_pct_z_lag4",
+    "pts_pct_z_lag5",
+    "pts_pct_z_mean3",
+    "pts_pct_z_mean5"
+  ]
+}

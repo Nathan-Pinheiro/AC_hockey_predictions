@@ -1,0 +1,15 @@
+split,model,family,mae,rmse,spearman,top_overlap,within_2,n_rankings,pair_accuracy
+backtest,Ridge + external,External,2.897227,3.680115,0.579062,0.693027,0.538893,28,0.715358
+backtest,Ensemble + external,External,2.976766,3.783705,0.558487,0.687075,0.523509,28,0.704134
+backtest,Pairwise logistic,Pairwise,2.993616,3.849546,0.547341,0.681973,0.544937,28,0.704356
+backtest,Pairwise boosting,Pairwise,3.014469,3.853732,0.546016,0.682823,0.526439,28,0.700000
+backtest,Gradient boosting + external,External,3.067949,3.888490,0.534223,0.685374,0.510505,28,0.689691
+backtest,Naive: previous available ranking,Naive,3.076374,3.916026,0.534341,0.687075,0.506502,28,0.694728
+backtest,Naive: random,Naive,5.046965,6.019776,-0.068328,0.427721,0.266091,28,0.471743
+clean,Naive: previous available ranking,Naive,3.386667,4.259376,0.486071,0.642857,0.453333,10,0.678095
+clean,Ensemble + external,External,3.400000,4.315061,0.473571,0.628571,0.453333,10,0.675238
+clean,Ridge + external,External,3.413333,4.350070,0.462857,0.600000,0.460000,10,0.673333
+clean,Pairwise boosting,Pairwise,3.453333,4.359932,0.463214,0.585714,0.486667,10,0.666667
+clean,Pairwise logistic,Pairwise,3.453333,4.392365,0.457500,0.585714,0.486667,10,0.668571
+clean,Gradient boosting + external,External,3.506667,4.365232,0.466786,0.628571,0.440000,10,0.666667
+clean,Naive: random,Naive,4.946667,6.106199,-0.011429,0.542857,0.353333,10,0.492381
