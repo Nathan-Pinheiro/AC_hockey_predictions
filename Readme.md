@@ -1,4 +1,4 @@
-#Task description
+# Task description
 
 Ice hockey, known simply as hockey in North America and parts of Europe, is a team sport played on an ice rink in which two opposing teams use sticks to control and shoot a puck into the opponent's net. Each team fields six players on the ice at a time, including a goaltender. The team with the highest score after an hour of gameplay is declared the winner; ties are broken in overtime or a shootout. It is a full contact game and one of the more physically demanding team sports.
 
@@ -8,7 +8,7 @@ Using the historical ice hockey data provided in this assignment, the goal is to
 
 (a) The final regular season ranking of teams 
 (b) The set of teams that will change coaches 
-(c) TBA (to be announced)
+(c) How many penalty minutes (PIM) each player will accumulate during the regular season
 
 
 For all project questions, you should assume that the day you are making the predictions is the day before the first game of a new season. The predictions are for that new season starting tomorrow.
