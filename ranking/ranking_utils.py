@@ -39,25 +39,13 @@ RANDOM_STATE = 42
 REQUIRED_COLUMNS = ["year", "tmID", "franchID", "confID", "Pts", "W", "GF", "GA"]
 
 
-# ----------------------------------------------------------------------------
-# Loading
-# ----------------------------------------------------------------------------
-def _attach_points_percentage(teams):
-    """Add raw points, games and points percentage from data/Teams.csv.
+CONF_MAP = {"EC": "EC", "WC": "WC", "WA": "EC", "CC": "WC"}
 
-    ``data_prepared/teams.csv`` is MinMax-normalised, so the raw points are not
-    recoverable from it.  Points percentage (``Pts / (2 * GP)``) is the fair
-    season-level performance measure: it removes the effect of shortened
-    seasons (e.g. the 48-game 1995 season) and of unequal games played.
-    """
-    raw_path = DATA_DIR / "Teams.csv"
-    if not raw_path.exists():
-        raise FileNotFoundError(f"{raw_path} not found - cannot compute points percentage.")
-    raw = pd.read_csv(raw_path)
-    raw = raw[raw["lgID"].eq("NHL")].copy()
-    raw = raw[["year", "tmID", "G", "Pts", "W"]].rename(columns={
-        "G": "games_raw", "Pts": "pts_raw", "W": "wins_raw",
-    })
+def _attach_points_percentage(teams):
+    """Reattach raw totals, derive pts_pct / pts_pct_c, normalise confID."""
+    raw = pd.read_csv(DATA_DIR / "Teams.csv")
+    raw = raw[raw["lgID"].eq("NHL")][["year", "tmID", "G", "Pts", "W"]]
+    raw = raw.rename(columns={"G": "games_raw", "Pts": "pts_raw", "W": "wins_raw"})
     if raw.duplicated(["year", "tmID"]).any():
         raw = raw.groupby(["year", "tmID"], as_index=False).agg(
             games_raw=("games_raw", "sum"),
@@ -67,8 +55,41 @@ def _attach_points_percentage(teams):
     teams = teams.merge(raw, on=["year", "tmID"], how="left")
     teams["pts_pct"] = teams["pts_raw"] / (2 * teams["games_raw"]).replace(0, np.nan)
     teams["win_pct"] = teams["wins_raw"] / teams["games_raw"].replace(0, np.nan)
+
+    unmapped = set(teams["confID"].dropna().unique()) - set(CONF_MAP)
+    if unmapped:
+        raise ValueError(f"Unmapped confID values: {unmapped}. Update CONF_MAP.")
+    teams["confID"] = teams["confID"].map(CONF_MAP)
+
+    teams["pts_pct_c"] = (
+        0.5 * teams["pts_pct"]
+        / teams.groupby("year")["pts_pct"].transform("mean")
+    )
     return teams
 
+def compute_conference_rank(df):
+    """Add conf_rank / conf_size / conf_rank_pct / prev_conf_rank.
+
+    Single source of truth for the actual final ranking. Uses pts_pct (raw,
+    from _attach_points_percentage), ties broken by wins then tmID.
+    Matches the rule used by build_dataset, rank_predictions and the results
+    notebook cell.
+    """
+    df = df.copy()
+    df["confID"] = df["confID"].fillna("NONE")
+    df = df.sort_values(
+        ["year", "confID", "pts_pct", "wins_raw", "tmID"],
+        ascending=[True, True, False, False, True],
+    )
+    by_conf = df.groupby(["year", "confID"])
+    df["conf_rank"] = by_conf.cumcount() + 1
+    df["conf_size"] = by_conf["tmID"].transform("size")
+    df["conf_rank_pct"] = (
+        (df["conf_rank"] - 1) / (df["conf_size"] - 1).clip(lower=1)
+    )
+    df = df.sort_values(["franchID", "year"]).reset_index(drop=True)
+    df["prev_conf_rank"] = df.groupby("franchID")["conf_rank"].shift(1)
+    return df
 
 def load_teams(path=DATA_PATH):
     """Read data_prepared/teams.csv and run basic sanity checks."""
@@ -116,14 +137,7 @@ def build_dataset(teams):
     df["gd_z"] = df["GF_z"] - df["GA_z"]
 
     # Target ranking inside each conference, based on points percentage.
-    df = df.sort_values(
-        ["year", "confID", "pts_pct", "wins_raw", "tmID"],
-        ascending=[True, True, False, False, True],
-    )
-    by_conf = df.groupby(["year", "confID"])
-    df["conf_rank"] = by_conf.cumcount() + 1
-    df["conf_size"] = by_conf["tmID"].transform("size")
-    df["conf_rank_pct"] = (df["conf_rank"] - 1) / (df["conf_size"] - 1).clip(lower=1)
+    df = compute_conference_rank(df)
     df["target"] = df["pts_pct_z"]
 
     # History of each franchise.

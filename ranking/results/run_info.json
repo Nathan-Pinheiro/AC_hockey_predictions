@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:30:42+00:00",
+  "generated_at": "2026-11-09T17:12:49+00:00",
   "python": "3.11.9",
   "splits": {
     "clean": [
@@ -89,7 +89,7 @@
         "n_hist"
       ]
     },
-    "Gradient boosting + external": {
+    "Random forest + external": {
       "family": "External",
       "data": "external",
       "n_features": 9,
@@ -103,50 +103,6 @@
         "pdo_mean3_z",
         "shot_diff_pct_mean3_z",
         "n_hist"
-      ]
-    },
-    "Ensemble + external": {
-      "family": "External",
-      "data": "external",
-      "n_features": 9,
-      "features": [
-        "pts_pct_z_lag1",
-        "sh_pct_lag1_z",
-        "sv_pct_lag1_z",
-        "pdo_lag1_z",
-        "shot_diff_lag1_z",
-        "shot_diff_pct_lag1_z",
-        "pdo_mean3_z",
-        "shot_diff_pct_mean3_z",
-        "n_hist"
-      ]
-    },
-    "Pairwise logistic": {
-      "family": "Pairwise",
-      "data": "base",
-      "n_features": 7,
-      "features": [
-        "pts_pct_z_lag1",
-        "pts_pct_z_lag2",
-        "pts_pct_z_lag3",
-        "pts_pct_z_lag4",
-        "pts_pct_z_lag5",
-        "pts_pct_z_mean3",
-        "pts_pct_z_mean5"
-      ]
-    },
-    "Pairwise boosting": {
-      "family": "Pairwise",
-      "data": "base",
-      "n_features": 7,
-      "features": [
-        "pts_pct_z_lag1",
-        "pts_pct_z_lag2",
-        "pts_pct_z_lag3",
-        "pts_pct_z_lag4",
-        "pts_pct_z_lag5",
-        "pts_pct_z_mean3",
-        "pts_pct_z_mean5"
       ]
     }
   }

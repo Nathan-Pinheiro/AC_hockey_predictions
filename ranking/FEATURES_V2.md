@@ -154,13 +154,13 @@ retient pas.
 | Split | Modèle | MAE | Spearman | Top-8 overlap | Gain vs naive | IC 95 % | Verdict |
 |---|---|---:|---:|---:|---:|---|---|
 | **Clean 2005–2009** | Naive précédent | 3,400 | 0,477 | 62,9 % | 0,000 | — | référence |
-| | Ridge + external | 3,413 | 0,463 | 60,0 % | −0,013 | [−0,374 ; +0,280] | bruit |
+| | Ridge + external | 3,413 | 0,463 | 60,0 % | −0,013 | [−0,400 ; +0,320] | bruit |
+| | Random forest + external | 3,480 | 0,476 | 61,4 % | −0,080 | [−0,347 ; +0,173] | bruit |
 | | **Blend (0,95 / 0,05)** | 3,413 | 0,464 | 61,4 % | −0,013 | [−0,374 ; +0,280] | bruit |
-| | Ensemble + external | 3,400 | 0,474 | 62,9 % | 0,000 | [−0,413 ; +0,320] | bruit |
 | **Backtest 1995–2009** | Naive précédent | 3,065 | 0,533 | 68,8 % | 0,000 | — | référence |
-| | Ridge + external | 2,897 | 0,579 | 69,3 % | +0,168 | — | — |
+| | Ridge + external | 2,897 | 0,579 | 69,3 % | +0,169 | [−0,005 ; +0,333] | bruit |
+| | Random forest + external | 2,936 | 0,564 | 68,7 % | +0,134 | [−0,025 ; +0,306] | bruit |
 | | **Blend (0,95 / 0,05)** | **2,893** | 0,577 | 70,3 % | **+0,174** | **[+0,010 ; +0,332]** | significatif (backtest seulement) |
-| | Ensemble + external | 2,977 | 0,558 | 68,7 % | +0,088 | — | — |
 
 Le détail complet est dans `ranking/results/summary.csv` ; le notebook
 `ranking/ranking_results_analysis.ipynb` recalcule les intervalles et le verdict.
@@ -168,9 +168,9 @@ Le détail complet est dans `ranking/results/summary.csv` ; le notebook
 ### 5.2 Lecture honnête
 
 - **Sur le clean test 2005–2009, aucun modèle season-level ni le blend n'est significatif.** Ni les
-  5 modèles, ni le blend ne battent le naive « previous available ranking » avec un IC entièrement
-  > 0. Le meilleur « modèle » season-level du clean test est le naive lui-même (3,400, à égalité
-  avec l'ensemble).
+  deux modèles, ni le blend ne battent le naive « previous available ranking » avec un IC entièrement
+  > 0. Le meilleur « modèle » season-level du clean test est le naive lui-même (3,400), devant Ridge
+  (3,413) et le random forest (3,480).
 - **Le blend n'aide pas sur le clean test** (−0,013 [−0,374 ; +0,280]). Avec `w = 0,95`, il est
   presque identique à Ridge et hérite donc de son résultat. Le poids 0,95 plutôt que 1,00 est un
   artefact de la grille : le gain sur la sélection est de 0,007 position.
