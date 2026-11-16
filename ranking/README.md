@@ -17,7 +17,7 @@ ranking_era_drift.ipynb          ->  diagnostic de dérive + revue des remèdes
 ```
 
 1. **Analyse des features** : choisit les variables à utiliser (uniquement sur 1995–2004).
-2. **Prédictions** : entraîne 2 baselines naïves + 5 modèles + 1 blend et stocke tous les résultats.
+2. **Prédictions** : entraîne 2 baselines naïves + 2 modèles + 1 blend et stocke tous les résultats.
 3. **Analyse post-prédiction** : ne réentraîne rien ; elle compare, teste la significativité,
    regarde la stabilité par saison et produit le verdict.
 
@@ -87,19 +87,22 @@ Deux baselines naïves :
 | `Naive: random` | scores aléatoires, graine fixe (plancher, aucune compétence) |
 | `Naive: previous available ranking` | points percentage de la dernière saison disponible, re-classé dans la conférence courante |
 
-Cinq modèles :
+Deux modèles :
 
 | Famille | Modèle | Idée |
 |---|---|---|
 | External | Ridge + external | régression linéaire régularisée sur les features sélectionnées |
-| External | Gradient boosting + external | modèle non linéaire sur les mêmes features |
-| External | Ensemble + external | moyenne de Ridge et du gradient boosting |
-| Pairwise | Pairwise logistic | apprentissage du classement par paires |
-| Pairwise | Pairwise boosting | version non linéaire du précédent |
+| External | Random forest + external | challenger non linéaire, forêt volontairement peu profonde (`max_depth=4`, `min_samples_leaf=20`, `max_features=0,7`, 500 arbres) |
 | Blend | Naive + best model | `w × meilleur modèle + (1−w) × naive`, `w = 0,95` choisi sur 1995–2004 puis figé |
 
-Les anciens modèles (random forest, blend pairwise, modèles d'historique seuls) sont dans
-`archive/`.
+Le random forest est gardé comme **challenger non linéaire**, avec une réserve explicite : il reste
+derrière Ridge (sélection 2,633 contre 2,611 ; test propre 3,480 contre 3,413). Une grille dev-only a
+montré qu'un forest plus profond fait mieux sur 1995–2003 (2,592) mais se dégrade nettement sur
+2005–2009 (3,653) : c'est de l'overfit, donc on garde la version conservatrice. Le test propre n'a
+jamais servi à choisir les hyper-paramètres.
+
+Les variantes testées pendant le projet (gradient boosting, ensemble, pairwise ranking) sont
+conservées dans l'historique git ; d'anciens notebooks sont dans `archive/`.
 
 ## Résultats actuels
 
@@ -110,10 +113,12 @@ l'expérience de la franchise (`n_hist`). Aucun des nouveaux blocs (`teamvs`, `s
 
 - **Test propre 2005–2009** : la baseline `previous available ranking` reste la meilleure
   (MAE **3,400**). `Ridge + external` et le blend font **3,413** (**−0,013** position,
-  IC 95 % [−0,374 ; +0,280]) : rien n'est significatif.
+  IC 95 % [−0,374 ; +0,280]) et le random forest **3,480** (**−0,080** [−0,347 ; +0,173]) :
+  rien n'est significatif.
 - **Backtest 1995–2009** : le blend est le meilleur (MAE **2,893** contre **3,065** pour la
-  baseline, soit **+0,174** position, IC 95 % [+0,010 ; +0,332]). Le backtest a servi à la
-  sélection : c'est un contrôle de stabilité, pas une preuve propre.
+  baseline, soit **+0,174** position, IC 95 % [+0,010 ; +0,332]). Ridge fait **2,897**
+  (+0,169 [−0,005 ; +0,333]) et le random forest **2,936** (+0,134 [−0,025 ; +0,306]).
+  Le backtest a servi à la sélection : c'est un contrôle de stabilité, pas une preuve propre.
 - **Piste match-level (optionnelle)** : le notebook `ranking_match_level.ipynb` ne bat **pas** les
   baselines sur un rang entier. Clean test : MAE **3,373** contre **3,400** (gain **+0,027**
   [−0,040 ; +0,080]) ; backtest : **3,041** contre **3,065** (+0,025 [−0,010 ; +0,060]). L'ancien
