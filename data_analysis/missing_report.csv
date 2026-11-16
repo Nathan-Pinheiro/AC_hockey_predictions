@@ -298,8 +298,4 @@ TeamsSC,GA,numerical,30,0,0,0,0.0
 TeamsSC,PIM,numerical,30,22,0,22,73.33
 abbrev,Type,non-numerical,58,0,0,0,0.0
 abbrev,Code,non-numerical,58,0,0,0,0.0
-<<<<<<< HEAD
 abbrev,Fullname,non-numerical,58,0,0,0,0.0
-=======
-abbrev,Fullname,non-numerical,58,0,0,0,0.0
->>>>>>> ebbb918b66648baaeca1b7b0b396d09751920c5a
