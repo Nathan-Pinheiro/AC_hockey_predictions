@@ -299,3 +299,17 @@ TeamsSC,PIM,numerical,30,22,0,22,73.33
 abbrev,Type,non-numerical,58,0,0,0,0.0
 abbrev,Code,non-numerical,58,0,0,0,0.0
 abbrev,Fullname,non-numerical,58,0,0,0,0.0
+titanic_openml_40945,pclass,numerical,1309,0,0,0,0.0
+titanic_openml_40945,survived,numerical,1309,0,0,0,0.0
+titanic_openml_40945,name,non-numerical,1309,0,0,0,0.0
+titanic_openml_40945,sex,non-numerical,1309,0,0,0,0.0
+titanic_openml_40945,age,numerical,1309,263,0,263,20.09
+titanic_openml_40945,sibsp,numerical,1309,0,0,0,0.0
+titanic_openml_40945,parch,numerical,1309,0,0,0,0.0
+titanic_openml_40945,ticket,non-numerical,1309,0,0,0,0.0
+titanic_openml_40945,fare,numerical,1309,1,0,1,0.08
+titanic_openml_40945,cabin,non-numerical,1309,1014,0,1014,77.46
+titanic_openml_40945,embarked,non-numerical,1309,2,0,2,0.15
+titanic_openml_40945,boat,non-numerical,1309,823,0,823,62.87
+titanic_openml_40945,body,numerical,1309,1188,0,1188,90.76
+titanic_openml_40945,home.dest,non-numerical,1309,564,0,564,43.09
