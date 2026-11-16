@@ -28,7 +28,7 @@ PROJECT_ROOT = RANKING_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 PREPARED_DIR = PROJECT_ROOT / "data_prepared"
 DATA_PATH = PREPARED_DIR / "teams.csv"
-SELECTED_FEATURES_PATH = RANKING_DIR / "selected_features.json"
+SELECTED_FEATURES_PATH = RANKING_DIR / "results" / "selected_features.json"
 RESULTS_DIR = RANKING_DIR / "results"
 
 LAGS = 5                 # number of previous seasons used as history
