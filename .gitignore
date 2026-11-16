@@ -3,3 +3,6 @@
 .DS_Store
 /data_analysis
 
+__pycache__/
+
+/ranking/results
